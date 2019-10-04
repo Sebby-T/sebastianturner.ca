@@ -13,3 +13,85 @@
 html {
   font-family: var(--font-primary);
 }
+
+/* headings */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-secondary);
+  color: var(--color-primary);
+  font-weight: bold;
+}
+
+h1, h2 {
+  font-weight: 300;
+}
+
+
+
+/* list */
+
+ul, ol, dl {
+  font-family: var(--font-secondary);
+  color: var(--color-primary-light);
+}
+
+dt {
+  font-weight: bold;
+  color: var(--color-purple);
+}
+
+/* links */
+
+a {
+  font-family: var(--font-secondary);
+  color: #4c00c6;
+}
+
+/* blockquotes */
+
+blockquote {
+  font-family: var(--font-primary);
+  color: var(--color-primary);
+}
+
+cite {
+  font-family: var(--font-primary);
+  color: var(--color-primary);
+  font-style: italic;
+}
+
+/* empahsis & edits */
+
+q, em, strong, del, ins, abbr, dfn, i, b, mark, s, u {
+  font-family: var(--font-primary);
+}
+
+q, strong, ins {
+  font-weight: bold;
+}
+
+em, dfn {
+  font-weight: italic;
+}
+
+del, s {
+  color: #707070;
+}
+
+abbr {
+  font-weight: bold;
+  color: var(--color-purple);
+}
+
+b {
+  color: var(--color-purple);
+}
+
+mark {
+  background-color: var(--color-aqua);
+}
+
+u {
+  color: var(--color-purple);
+  text-decoration-color: var(--color-purple)
+}
