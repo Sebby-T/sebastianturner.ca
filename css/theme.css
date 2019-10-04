@@ -1,0 +1,15 @@
+:root {
+  --color-primary: #000;
+  --color-primary-light: #454148;
+  --color-secondary: #fff;
+  --color-purple: #b781ef;
+  --color-blue: #5f6ede;
+  --color-aqua: #58e8d2;
+
+  --font-primary: Cabin, Arial, sans-serif;
+  --font-secondary: Roboto, Verdana, sans-serif;
+}
+
+html {
+  font-family: var(--font-primary);
+}

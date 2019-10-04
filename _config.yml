@@ -1,3 +1,6 @@
 permalink: pretty
 
 theme: jekyll_patternbot
+
+patternbot:
+  font_url: "https://fonts.googleapis.com/css?family=Cabin:400,400i,700,700i|Roboto:300,400,700&display=swap"
