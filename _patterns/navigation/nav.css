@@ -1,0 +1,62 @@
+.masthead {
+  background-color: #222024;
+  filter: drop-shadow(0 10px 10px rgba(0, 0, 0, 0.2));
+}
+
+.head-logo svg {
+  fill: var(--color-secondary);
+  transition: all .2s linear;
+}
+
+.head-logo svg:hover {
+  fill: var(--color-aqua);
+  transition: all .2s linear;
+}
+
+.head-logo > a:focus,
+.head-logo > a:focus svg {
+  fill: var(--color-aqua);
+  outline: 3px solid var(--color-secondary);
+}
+
+.head-nav a {
+  color: var(--color-secondary);
+}
+
+.head-nav a:hover {
+  color: var(--color-aqua);
+}
+
+.head-nav a:focus {
+  color: var(--color-aqua);
+  outline: 3px solid var(--color-secondary);
+}
+
+.head-nav li:hover a {
+  color: var(--color-aqua);
+}
+
+.underline {
+  height: .15rem;
+  width: 0%;
+  opacity: 0;
+  margin: 0;
+  background: var(--color-aqua);
+  border: none;
+  transition: .3s ease-in-out;
+}
+
+.about:hover > .underline,
+.projects:hover > .underline,
+.contact:hover > .underline {
+  width: 100%;
+  opacity: 1;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .masthead > div {
+    text-align: center;
+  }
+
+}
