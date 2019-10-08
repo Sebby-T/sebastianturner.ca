@@ -7,3 +7,14 @@ patternbot:
   description: |
     A porfolio collection of my school projects, client projects, and personal work.
   font_url: "https://fonts.googleapis.com/css?family=Cabin:400,400i,700,700i|Roboto:300,400,700&display=swap"
+  rationales:
+    typefaces.primary: |
+      Cabin was selected because of its clean modern design, as well as its nice readability for web. Cabin should be used as body copy for the website. Arial and sans serif were also chosen as back-up web safe fonts incase the user can not load the Cabin font family.
+    typefaces.secondary: |
+      Roboto was selected because of its clean modern design and nice readability for web. It also pairs nicely with Cabin as a header font. It be used for headers, buttons, list-items, links etc. Verdana and sans serif were also chosen as back-up web safe fonts incase the user can not load the Roboto font family.
+    colors.primary: |
+      Black was chosen for its very design-like aesthetic. It is simple and feels elegant and when paired with white it feels modern. The Primary Light is used as a lighter accent to the primary
+    colors.secondary: |
+      White was used for its sense of brillance and softness. When combined with black it gives a very designed feeling to the website.
+    colors.accent: |
+      Accents colours are used to bring colour into the website. Its prime goal is to grab the users attention and direct them to important tasks on the website. They will mainly be used in buttons, links and small illustrations.

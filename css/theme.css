@@ -32,7 +32,7 @@ h1, h2 {
 
 ul, ol, dl {
   font-family: var(--font-secondary);
-  color: var(--color-primary-light);
+  color: var(--color-primary);
 }
 
 dt {
