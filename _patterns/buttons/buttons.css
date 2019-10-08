@@ -5,25 +5,64 @@
   border-color: var(--color-primary);
   border-radius: 0;
   border-width: 5px;
+
+  transition: all .1s linear;
 }
 
 .btn:hover {
   background-color: var(--color-secondary);
   color: var(--color-primary);
+
+  transition: all .1s linear;
 }
 
 .btn-ghost {
   background-color: transparent;
   color: var(--color-primary);
+
+  transition: all .1s linear;
 }
 
 .btn-ghost:hover {
   background-color: var(--color-primary-light);
   color: var(--color-secondary);
   border-color: var(--color-primary-light);
+
+  transition: all .1s linear;
 }
 
 .btn-light {
-  background-color: var(--color-primary-light);
-  border-color: var(--color-primary-light);
+  color: var(--color-purple);
+  background-color: var(--color-aqua);
+  border-color: var(--color-aqua);
+
+  transition: all .1s linear;
+}
+
+.btn-light:hover {
+  color: var(--color-purple);
+  border-color: var(--color-purple);
+  background-color: var(--color-secondary);
+
+  transition: all .1s linear;
+}
+
+.btn-grad {
+  background-color: transparent;
+  color: var(--color-primary);
+  border-color: var(--color-primary);
+
+  transition: all .1s linear;
+}
+
+.btn-grad:hover,
+.btn-grad:focus {
+  color: var(--color-purple);
+  background-color: var(--color-secondary);
+
+  border-image-source: linear-gradient(to top, var(--color-aqua), var(--color-blue), var(--color-purple));
+  border-image-slice: 1;
+  filter: drop-shadow(0 5px 5px rgba(0, 0, 0, .2));
+
+  transition: all .1s linear;
 }
