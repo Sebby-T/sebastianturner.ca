@@ -6,7 +6,7 @@ patternbot:
   title: "Sebastian Turners Portfolio Website"
   description: |
     A porfolio collection of my school projects, client projects, and personal work.
-  font_url: "https://fonts.googleapis.com/css?family=Cabin:400,400i,700,700i|Roboto:300,400,700&display=swap"
+  font_url: "https://fonts.googleapis.com/css?family=Cabin:400,400i,700|Roboto:300,400,700,900&display=swap"
   rationales:
     typefaces.primary: |
       Cabin was selected because of its clean modern design, as well as its nice readability for web. Cabin should be used as body copy for the website. Arial and sans serif were also chosen as back-up web safe fonts incase the user can not load the Cabin font family.

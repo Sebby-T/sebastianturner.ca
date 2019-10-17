@@ -8,9 +8,8 @@
   transition: all .2s linear;
 }
 
-.head-logo svg:hover {
+.head-logo a:hover svg {
   fill: var(--color-aqua);
-  transition: all .2s linear;
 }
 
 .head-logo > a:focus,
@@ -32,10 +31,6 @@
   outline: 3px solid var(--color-secondary);
 }
 
-.head-nav li:hover a {
-  color: var(--color-aqua);
-}
-
 .underline {
   height: .15rem;
   width: 0%;
@@ -46,17 +41,73 @@
   transition: .3s ease-in-out;
 }
 
-.about:hover > .underline,
-.projects:hover > .underline,
-.contact:hover > .underline {
+.head-nav a:hover + .underline {
   width: 100%;
   opacity: 1;
 }
 
+.slide-out {
+  background-color: var(--color-primary-light);
+}
+
+.border-left {
+  position: absolute;
+  border-left: 3px solid var(--color-secondary);
+  min-height: 100%
+}
+
+.project-nav {
+  margin-left: 10%;
+}
+
+.project-nav a {
+  color: var(--color-secondary);
+  transition: all .3s ease-in-out;
+}
+
+.project-nav a:hover {
+  padding-left: 2%;
+  color: var(--color-aqua);
+  transition: all .3s ease-in-out;
+}
+
+.social-nav .social-icon svg {
+  fill: var(--color-secondary);
+  transition: all .2s linear;
+
+}
+
+.social-nav .social-icon:hover svg,
+.social-nav .social-icon:focus svg {
+  fill: url(#my-gradient);
+}
+
+.social-icon > .social-label {
+  opacity: 0;
+  color: var(--color-secondary);
+  transition: all .1s ease-in;
+}
+
+.social-icon:hover > .social-label {
+  opacity: 1;
+}
+
+.social-nav .social-icon:focus {
+  outline-color: var(--color-secondary);
+}
+
+@media only screen and (min-width: 26.375em) {
+
+  .head-nav ul li {
+    display: inline-block;
+  }
+
+}
+
 @media only screen and (min-width: 38em) {
 
-  .masthead > div {
-    text-align: center;
+  .masthead .head-nav {
+    text-align: right;
   }
 
 }
