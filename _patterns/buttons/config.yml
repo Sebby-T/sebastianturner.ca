@@ -1,0 +1,80 @@
+title: "Buttons"
+description: |
+  Buttons are to be used for when a sudden or dramatic change in information takes place, such as linking to a new pages or submitting information. They are mainly seen in banners or sections.
+
+patterns:
+  basic:
+    title: "Basic Button"
+    description: |
+      This basic button is used on white backgrounds to create strong contrast. It should only be used to link to other important areas of the website.
+    padding: 1em
+    fields:
+      - name: text
+        type: string
+        example: "See More"
+      - name: url
+        type: string
+        example: "#"
+      - name: aria
+        type: string
+        example: "This link will lead you to *insert destination here*."
+  light:
+    title: "Light Button"
+    description: |
+      This light button is used on dark backgrounds to create strong contrast. It should only be used to link to other important areas of the website.
+    padding: 1em
+    fields:
+      - name: text
+        type: string
+        example: "See More"
+      - name: url
+        type: string
+        example: "#"
+      - name: aria_label
+        type: string
+        example: "This link will lead you to *insert destination here*."
+  ghost:
+    title: "Ghost Button"
+    description: |
+      The ghost button should primarly link to other project web-pages. It should be used carefully as it can be hard to see, it is recommended to be used on white or similar lighter backgrounds where there is sufficient contrast.
+    padding: 1em
+    fields:
+      - name: text
+        type: string
+        example: "See More"
+      - name: url
+        type: string
+        example: "#"
+      - name: aria_label
+        type: string
+        example: "This link will lead you to *insert destination here*."
+  exit-button:
+    title: "Exit Button"
+    description: |
+      The exit button shares the same properties of the ghost button—with minor differences. It should only ever be used on project pages and only link to exterior websites.
+    padding: 1em
+    fields:
+      - name: text
+        type: string
+        example: "See the website here"
+      - name: url
+        type: string
+        example: "#"
+      - name: aria_label
+        type: string
+        example: "This link will lead you to *insert destination here*."
+  grad:
+    title: "Gradient Button"
+    description: |
+      The gradient button shares the same properties and uses as the ghost button. It's only difference is that it uses a gradient when hovered. This button would have higher importance than the ghost button.
+    padding: 1em
+    fields:
+      - name: text
+        type: string
+        example: "View case study"
+      - name: url
+        type: string
+        example: "#"
+      - name: aria_label
+        type: string
+        example: "This link will lead you to *insert destination here*."

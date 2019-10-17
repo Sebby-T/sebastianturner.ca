@@ -25,6 +25,10 @@
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
 
+.pb-content h1 {
+  font-weight: normal;
+}
+
 @media only screen and (min-width: 38em) {
 
   .hb-content > h1 {
@@ -37,6 +41,10 @@
 
   .hb-content > h1 {
     line-height: 5.1rem;
+  }
+
+  .pb-content h1 {
+    font-weight: 300;
   }
 
 }
