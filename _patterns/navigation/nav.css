@@ -82,16 +82,6 @@
   fill: url(#my-gradient);
 }
 
-.social-icon > .social-label {
-  opacity: 0;
-  color: var(--color-secondary);
-  transition: all .1s ease-in;
-}
-
-.social-icon:hover > .social-label {
-  opacity: 1;
-}
-
 .social-nav .social-icon:focus {
   outline-color: var(--color-secondary);
 }
