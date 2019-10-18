@@ -1,8 +1,3 @@
-.masthead {
-  background-color: #222024;
-  filter: drop-shadow(0 10px 10px rgba(0, 0, 0, 0.2));
-}
-
 .head-logo svg {
   fill: var(--color-secondary);
   transition: all .2s linear;
