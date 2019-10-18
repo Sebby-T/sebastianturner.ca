@@ -1,0 +1,9 @@
+title: "Header"
+description: |
+  The header contains the top naviation elements for my website. The header pattern appears at the top of every page on my website. It hold navigation links to my about section, project lists and contact info.
+
+patterns:
+  header:
+    title: "Header"
+    description: |
+      The header pattern appears at the top of every page on my website. It hold navigation links to my about section, project lists and contact info.

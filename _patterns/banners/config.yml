@@ -1,0 +1,13 @@
+title: "Banners"
+description: |
+  These are the banners that will only show at the top of every page. They should only ever be used once per page.
+
+patterns:
+  hero-banner:
+    title: "Hero Banner"
+    description: |
+      The hero banner displays only on the main page. It contains the title of my website as well as my job title.
+  project-banner:
+    title: "Project Banner"
+    description: |
+      The project banner displays a the top of every portfolio page piece.

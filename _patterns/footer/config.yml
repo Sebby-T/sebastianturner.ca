@@ -1,0 +1,9 @@
+title: "Footer"
+description: |
+  The footer contains basic elements such as copyright info and my social navigation menu
+
+patterns:
+  footer:
+    title: "Footer"
+    description: |
+      The footer pattern appears at the bottom of every page on my website. It hold navigation links to social media and other sites for personalization.

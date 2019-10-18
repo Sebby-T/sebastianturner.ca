@@ -1,0 +1,17 @@
+title: "Sections"
+description: |
+  The descriptions are used to make up the body and main content of my website.
+
+patterns:
+  project-section:
+    title: "Project Section"
+    description: |
+      The project section is only used on the main page to display my most highlighted portfolio pieces.
+  project-section-alt:
+    title: "Project Section Flipped"
+    description: |
+      The project section flipped is only used on the main page to display my most highlighted portfolio pieces. It's main difference from the previous is that it is flipped. to be updated.
+  breakdown-section:
+    title: "Breakdown Section"
+    description: |
+      The breakdown section is used on the project pages after the project banner. It is used to display the main content of the project.

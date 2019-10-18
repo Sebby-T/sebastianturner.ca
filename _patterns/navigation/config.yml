@@ -1,0 +1,17 @@
+title: "Navigations"
+description: |
+  The navigation patterns lead to important areas of my website or outside of my website to related social media content.
+
+patterns:
+  head-nav:
+    title: "Head Navigation"
+    description: |
+      The head navigation is used in the header portion of my website and links to the most important content of my website. It should only be used in the header.
+  social-nav:
+    title: "Social Navigation"
+    description: |
+      The social navigation is used to link to my other social media outlets as well as my mail. It's used as the contanct info for the page and should only be found in the footer of the website.
+  projects-nav:
+    title: "Project Navigation"
+    description: |
+      Still under construction.
