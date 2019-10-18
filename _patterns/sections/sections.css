@@ -1,0 +1,59 @@
+.carousel-controls {
+  background-color: #454148;
+  filter: drop-shadow(0 3px 6px rgba(0, 0, 0, 0.16));
+}
+
+.carousel-controls > ul li:hover {
+  background-color: #29272b;
+}
+
+.carousel-btn {
+  color: var(--color-secondary);
+}
+
+.project-content .item {
+  color: #707070;
+}
+
+.project-section:nth-child(even) {
+  background-color: #f4f4f4;
+}
+
+.slash {
+  background: url(/images/slash.svg) center right / 1rem auto no-repeat ;
+  padding-right: 1rem;
+}
+
+.font-img {
+  max-width: 23em;
+}
+
+.carousel-items > div {
+  display: none;
+}
+
+#colours-control:checked ~ .carousel-inner #colours,
+#typeface-control:checked ~ .carousel-inner #typeface,
+#audience-control:checked ~ .carousel-inner #audience,
+#design-control:checked ~ .carousel-inner #design {
+  display: block;
+}
+
+#colours-control:checked ~ .carousel-inner .carousel-controls .col-btn,
+#typeface-control:checked ~ .carousel-inner .carousel-controls .typ-btn,
+#audience-control:checked ~ .carousel-inner .carousel-controls .aud-btn,
+#design-control:checked ~ .carousel-inner .carousel-controls .des-btn {
+  background-color: #29272b;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .carousel-item .bd-h3 {
+    font-weight: 300;
+  }
+
+  .font-h4 {
+    font-weight: normal;
+  }
+
+}

@@ -32,7 +32,7 @@
 }
 
 .btn-light {
-  color: var(--color-purple);
+  color: var(--color-primary);
   background-color: var(--color-aqua);
   border-color: var(--color-aqua);
 
@@ -42,7 +42,7 @@
 .btn-light:hover {
   color: var(--color-purple);
   border-color: var(--color-purple);
-  background-color: var(--color-secondary);
+  background-color: transparent;
 
   transition: all .1s linear;
 }

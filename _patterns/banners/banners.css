@@ -29,6 +29,10 @@
   font-weight: normal;
 }
 
+.pb-tags .pb-tag-items > li {
+  color: #707070;
+}
+
 @media only screen and (min-width: 38em) {
 
   .hb-content > h1 {

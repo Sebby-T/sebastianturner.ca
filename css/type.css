@@ -107,8 +107,16 @@ thead th {
   font-style: normal;
 }
 
+.light {
+  font-weight: 300;
+}
+
 .bold {
   font-weight: bold;
+}
+
+.black {
+  font-weight: 900;
 }
 
 .italic {
