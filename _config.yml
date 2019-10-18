@@ -13,6 +13,8 @@ patternbot:
     patterns:
       icons.icons: "--color-primary-light"
       buttons.light: "--color-primary"
+      navigation.head-nav: "--color-primary"
+      navigation.social-nav: "--color-primary"
   rationales:
     typefaces.primary: |
       Cabin was selected because of its clean modern design, as well as its nice readability for web. Cabin should be used as body copy for the website. Arial and sans serif were also chosen as back-up web safe fonts incase the user can not load the Cabin font family.
