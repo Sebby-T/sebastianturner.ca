@@ -7,6 +7,10 @@
   background-color: #29272b;
 }
 
+.carousel-controls > ul li:not(:last-child) {
+  border-right: 1px solid #6e6a71;
+}
+
 .carousel-btn {
   color: var(--color-secondary);
 }
@@ -44,6 +48,10 @@
 #audience-control:checked ~ .carousel-inner .carousel-controls .aud-btn,
 #design-control:checked ~ .carousel-inner .carousel-controls .des-btn {
   background-color: #29272b;
+}
+
+.max-length-2 {
+  max-width: 17em;
 }
 
 @media only screen and (min-width: 60em) {
