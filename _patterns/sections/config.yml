@@ -6,11 +6,12 @@ patterns:
   project-section:
     title: "Project Section"
     description: |
-      The project section is only used on the main page to display my most highlighted portfolio pieces.
-  project-section-alt:
-    title: "Project Section Flipped"
-    description: |
-      The project section flipped is only used on the main page to display my most highlighted portfolio pieces. It's main difference from the previous is that it is flipped. to be updated.
+      The project section is only used on the main page to display my most highlighted portfolio pieces. When the pattern is used in succession it must alternate using field the "section_norm=true".
+    fields:
+      - name: section_norm
+        type: string
+        example: "true"
+        required: false
   breakdown-section:
     title: "Breakdown Section"
     description: |
