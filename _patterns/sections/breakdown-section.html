@@ -5,35 +5,35 @@
   <input class="carousel-input" type="radio" name="breakdown" id="audience-control">
   <input class="carousel-input" type="radio" name="breakdown" id="design-control">
   <div class="carousel-inner">
-    <div class="carousel-controls">
-      <ul class="list-group grid text-center max-length max-length-2">
-        <li class="col-btn unit xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4">
+    <div class="carousel-controls text-center">
+      <ul class="list-group relative">
+        <li class="col-btn gutter-1-4">
           <label class="carousel-btn pad-t-1-4 pad-b-1-4" for="colours-control">
-            <i class="icon i-48">
+            <i class="icon i-2">
               <svg><use xlink:href="/images/icons.svg#colour"></use></svg>
             </i>
-            <span class="block micro text-center text-upper">Colours</span>
+            <span class="block micro text-center text-upper">Colour</span>
           </label>
         </li>
-        <li class="typ-btn unit xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4">
+        <li class="typ-btn gutter-1-4">
           <label class="carousel-btn pad-t-1-4 pad-b-1-4" for="typeface-control">
-            <i class="icon i-48">
+            <i class="icon i-2">
               <svg><use xlink:href="/images/icons.svg#typeface"></use></svg>
             </i>
-            <span class="block micro text-center text-upper">Typeface</span>
+            <span class="block micro text-center text-upper">Type</span>
           </label>
         </li>
-        <li class="aud-btn unit xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4">
+        <li class="aud-btn gutter-1-4">
           <label class="carousel-btn pad-t-1-4 pad-b-1-4" for="audience-control">
-            <i class="icon i-48">
+            <i class="icon i-2">
               <svg><use xlink:href="/images/icons.svg#tg-aud"></use></svg>
             </i>
-            <span class="block micro text-center text-upper">Audience</span>
+            <span class="block micro text-center text-upper">Target</span>
           </label>
         </li>
-        <li class="des-btn unit xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4">
+        <li class="des-btn gutter-1-4">
           <label class="carousel-btn pad-t-1-4 pad-b-1-4" for="design-control">
-            <i class="icon i-48">
+            <i class="icon i-2">
               <svg><use xlink:href="/images/icons.svg#vd"></use></svg>
             </i>
             <span class="block micro text-center text-upper">Design</span>
@@ -42,7 +42,15 @@
       </ul>
     </div>
 
-    <div class="carousel-items wrapper pad-t pad-b">
+    <div class="arrow-cont">
+      <div class="i-arrow">
+        <svg class="img-flex" id="arrow" width="256" height="128" viewBox="0 0 256 128">
+          <path id="Path_11" fill="#29272b" d="M0 0l128 128L256 0z"/>
+        </svg>
+      </div>
+    </div>
+
+    <div class="carousel-items wrapper pad-t-2 pad-b-2">
       <div class="carousel-item" id="colours">
         <div class="grid grid-middle gutter-1-2">
           <div class="unit xs-1 s-1 unit-push-m-1-2 m-1-2 l-1-2 xl-1-2 gutter-1-2 push">
