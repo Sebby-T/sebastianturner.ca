@@ -4,12 +4,14 @@
   position: sticky;
 }
 
-.carousel-controls > ul {
+.carousel-controls > ul,
+.arrow-cont > ul {
   display: inline-flex;
   margin: 0;
 }
 
-.carousel-controls > ul li {
+.carousel-controls > ul li,
+.arrow-cont > ul li {
   min-width: 80px;
   width: 100%;
 }
@@ -20,6 +22,12 @@
 
 .carousel-controls > ul li:not(:last-child) {
   border-right: 1px solid #6e6a71;
+}
+
+.arrow-cont ul > li > div {
+  width: 100%;
+  max-width: 3em;
+  margin: 0 auto;
 }
 
 .carousel-btn {
@@ -43,14 +51,19 @@
   max-width: 23em;
 }
 
-.carousel-items > div {
+.carousel-items > div,
+.arrow-cont ul > li > div {
   display: none;
 }
 
 #colours-control:checked ~ .carousel-inner #colours,
 #typeface-control:checked ~ .carousel-inner #typeface,
 #audience-control:checked ~ .carousel-inner #audience,
-#design-control:checked ~ .carousel-inner #design {
+#design-control:checked ~ .carousel-inner #design,
+#colours-control:checked ~ .carousel-inner #arrow-col,
+#typeface-control:checked ~ .carousel-inner #arrow-typ,
+#audience-control:checked ~ .carousel-inner #arrow-aud,
+#design-control:checked ~ .carousel-inner #arrow-des {
   display: block;
 }
 

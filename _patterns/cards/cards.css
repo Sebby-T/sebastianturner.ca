@@ -24,6 +24,8 @@
   align-items: center;
   text-align: center;
 
+  overflow-y: auto;
+
   visibility: hidden;
 
   opacity: 0;
@@ -33,7 +35,7 @@
 .overlay .img-expand {
   margin: 0 auto;
 
-  max-width: 25em;
+  max-width: 90%;
   max-height: 90%;
 
   width: auto;
