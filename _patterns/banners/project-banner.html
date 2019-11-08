@@ -14,9 +14,9 @@
   <div class="unit xs-1-2 s-1-2 m-1-2 l-1-4 xl-1-4 gutter-1-2">
     <h2 class="kilo push-1-4 normal">Categories</h2>
     <ul class="pb-tag-items list-group milli">
-      <li class="push-1-8">Web Development</li>
-      <li class="push-1-8">Web Design</li>
-      <li class="push-1-8">UI Design</li>
+      {% for cat in include.data.categories %}
+      <li class="push-1-8">{{cat}}</li>
+      {% endfor %}
     </ul>
   </div>
   <div class="unit xs-1-2 s-1-2 m-1-2 l-1-4 xl-1-4 gutter-1-2">

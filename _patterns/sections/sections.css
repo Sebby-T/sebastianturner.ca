@@ -42,7 +42,7 @@
   background-color: #f4f4f4;
 }
 
-.slash {
+.slash:not(:last-child) {
   background: url(/images/slash.svg) center right / 1rem auto no-repeat ;
   padding-right: 1rem;
 }

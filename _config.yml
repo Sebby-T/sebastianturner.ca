@@ -26,3 +26,6 @@ patternbot:
       White was used for its sense of brillance and softness. When combined with black it gives a very designed feeling to the website.
     colors.accent: |
       Accents colours are used to bring colour into the website. Its prime goal is to grab the users attention and direct them to important tasks on the website. They will mainly be used in buttons, links and small illustrations.
+collections:
+  projects:
+    output: true

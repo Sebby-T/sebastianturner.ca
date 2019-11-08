@@ -5,8 +5,10 @@ title: Sebastian Turner · Graphic Designer
 
 <main>
     {% pattern banners/hero-banner %}
-    {% pattern sections/project-section %}
-    {% pattern sections/project-section section_norm="true" %}
+    {% assign project1=site.projects[0] %}
+    {% pattern sections/project-section data=project1 %}
+    {% assign project2=site.projects[1] %}
+    {% pattern sections/project-section data=project2 section_norm="true" %}
     {% pattern sections/project-section %}
     {% pattern sections/about-me %}
 </main>
