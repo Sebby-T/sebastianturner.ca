@@ -14,12 +14,16 @@
 
 .hb-content > h1 {
   color: #f2f2f2;
-  line-height: 1.6rem;
+  line-height: 3.4rem;
+  font-size: 3.9605rem;
+
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
   transition: all .2s linear;
 }
 
 .hb-content > p {
+  font-size: 1.3531rem;
+
   color: #f2f2f2;
   margin-left: .1em;
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
@@ -33,10 +37,36 @@
   color: #707070;
 }
 
+.hb-img > svg {
+  opacity: .6;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .hb-content > h1 {
+    font-size: 4.9605rem;
+    line-height: 4.4rem;
+  }
+
+  .hb-content > p {
+    font-size: 1.7531rem;
+  }
+
+}
+
 @media only screen and (min-width: 38em) {
 
   .hb-content > h1 {
-    line-height: 2.6rem;
+    font-size: 5.9605rem;
+    line-height: 5.6rem;
+  }
+
+  .hb-content > p {
+    font-size: 2.0531rem;
+  }
+
+  .hb-img > svg {
+    opacity: 1;
   }
 
 }
@@ -44,7 +74,12 @@
 @media only screen and (min-width: 60em) {
 
   .hb-content > h1 {
-    line-height: 5.1rem;
+    font-size: 7.4506rem;
+    line-height: 6.1rem;
+  }
+
+  .hb-content > p {
+    font-size: 2.5531rem;
   }
 
   .pb-content h1 {
@@ -53,10 +88,10 @@
 
 }
 
-@media only screen and (min-width: 90em) {
+@media only screen and (min-width: 90) {
 
   .hb-content > h1 {
-    line-height: 8.1rem;
+    line-height: 5.1rem;
   }
 
 }
