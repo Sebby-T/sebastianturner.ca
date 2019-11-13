@@ -73,8 +73,8 @@ patterns:
         type: string
         example: "View case study"
       - name: url
-        type: string
+        type: url
         example: "#"
-      - name: aria_label
+      - name: aria
         type: string
         example: "This link will lead you to *insert destination here*."

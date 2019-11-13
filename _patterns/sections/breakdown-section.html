@@ -79,11 +79,11 @@
       <div class="carousel-item" id="colours">
         <div class="grid grid-middle gutter-1-2">
           <div class="unit xs-1 s-1 unit-push-m-1-2 m-1-2 l-1-2 xl-1-2 gutter-1-2 push">
-            <img class="img-flex" src="/images/colours/catonaut-colours.png" alt="">
+            <img class="img-flex" src="{{include.data.color_img}}" alt="">
           </div>
           <div class="unit xs-1 s-1 unit-pull-m-1-2 m-1-2 l-1-2 xl-1-2 gutter-1-2">
             <h3 class="bd-h3 push-1-4">Colours</h3>
-            <p class="max-length-no-center push-0">The purple represent a deep space feeling and sets a mood for the website. White represents the stars we see in the sky. These accents pair well and create a space themed harmony with the purple and white colours.</p>
+            <p class="max-length-no-center push-0">{{include.data.color_info}}</p>
           </div>
         </div>
       </div>
@@ -91,21 +91,21 @@
         <div class="grid grid-middle gutter-1-2">
           <div class="unit xs-1 s-1 unit-push-m-1-2 m-1-2 l-1-2 xl-1-2 gutter-1-2 push-1-2">
             <div class="push">
-              <h4 class="tera font-h4 bold push-1-4">Open Sans</h4>
+              <h4 class="tera font-h4 bold push-1-4">{{include.data.type_prime}}</h4>
               <div class="font-img font-prime push">
-                <img class="img-flex" src="/images/fonts/open-sans.svg" alt="">
+                <img class="img-flex" src="{{include.data.type_img_prime}}" alt="">
               </div>
             </div>
             <div class="push">
-              <h4 class="tera font-h4 bold push-1-4">Quicksand</h4>
+              <h4 class="tera font-h4 bold push-1-4">{{include.data.type_secondary}}</h4>
               <div class="font-img font-second">
-                <img class="img-flex" src="/images/fonts/quicksand.svg" alt="">
+                <img class="img-flex" src="{{include.data.tpye_img_secondary}}" alt="">
               </div>
             </div>
           </div>
           <div class="unit xs-1 s-1 unit-pull-m-1-2 m-1-2 l-1-2 xl-1-2 gutter-1-2">
             <h3 class="bd-h3 push-1-4">Typeface</h3>
-            <p class="push-0">Open Sans was selected because of its clean and easy readability for web. Quicksand was selected because of its soft geometric characteristics. It fits well with the fun space theme and lends itself to being creative and futuristic.</p>
+            <p class="push-0">{{include.data.type_info}}</p>
           </div>
         </div>
       </div>
