@@ -29,3 +29,8 @@ patternbot:
 collections:
   projects:
     output: true
+defaults:
+  - scope:
+      path: _projects
+    values:
+      layout: projects

@@ -3,8 +3,21 @@
   transition: all .2s linear;
 }
 
+#nav-circle {
+  stroke-dasharray: 190px;
+  stroke-dashoffset: 190px;
+  stroke: #fff;
+  transition: all .2s ease-in-out;
+}
+
 .head-logo a:hover svg {
   fill: var(--color-aqua);
+}
+
+.head-logo a:hover #nav-circle,
+.head-logo a:focus #nav-circle {
+  stroke-dashoffset: 0;
+  stroke: var(--color-aqua);
 }
 
 .head-logo > a:focus,

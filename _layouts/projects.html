@@ -2,7 +2,8 @@
 layout: default
 ---
 
-<main>
+<main role="main" id="main">
   {% pattern banners/project-banner data=page %}
-  {% pattern sections/breakdown-section %}
+  {% pattern sections/breakdown-section data=page %}
+  {% pattern sections/image-gallery data=page %}
 </main>

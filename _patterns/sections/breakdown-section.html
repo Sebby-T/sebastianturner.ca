@@ -79,7 +79,45 @@
       <div class="carousel-item" id="colours">
         <div class="grid grid-middle gutter-1-2">
           <div class="unit xs-1 s-1 unit-push-m-1-2 m-1-2 l-1-2 xl-1-2 gutter-1-2 push">
-            <img class="img-flex" src="{{include.data.color_img}}" alt="">
+            <div class="colour-box grid">
+              <div class="unit xs-1 push-1-2">
+                <div class="grid grid-middle">
+                  <div class="unit xs-1-2 s-1-3">
+                    <p class="milli push-0 gutter-1-4">Primary</p>
+                  </div>
+                  <div class="unit xs-1-3">
+                    <p class="milli push-0 gutter-1-4">Secondary</p>
+                  </div>
+                </div>
+                <ul class="grid grid-middle list-group-inline">
+                  {% for main_colors in include.data.main_colors %}
+                  <li class="unit xs-1-2 s-1-3 relative island-1-4">
+                    <div>
+                      <svg class="img-flex" width="256" height="256" viewBox="0 0 256 256"><rect fill="{{main_colors}}" x="0" y="0" width="256" height="256" /></svg>
+                    </div>
+                    <div class="pin-c">
+                      <p class="bold text-upper push-0 milli">{{main_colors}}</p>
+                    </div>
+                  </li>
+                  {% endfor %}
+                </ul>
+              </div>
+              <div class="unit xs-1">
+                <p class="milli push-0 gutter-1-4">Accents</p>
+                <ul class="grid grid-middle list-group-inline">
+                  {% for accent_colors in include.data.accent_colors %}
+                  <li class="unit xs-1-2 s-1-3 m-1-3 relative island-1-4">
+                    <div>
+                      <svg class="img-flex" width="256" height="256" viewBox="0 0 256 256"><rect fill="{{accent_colors}}" x="0" y="0" width="256" height="256" /></svg>
+                    </div>
+                    <div class="pin-c">
+                      <p class="bold text-upper push-0 milli">{{accent_colors}}</p>
+                    </div>
+                  </li>
+                  {% endfor %}
+                </ul>
+              </div>
+            </div>
           </div>
           <div class="unit xs-1 s-1 unit-pull-m-1-2 m-1-2 l-1-2 xl-1-2 gutter-1-2">
             <h3 class="bd-h3 push-1-4">Colours</h3>
@@ -99,7 +137,7 @@
             <div class="push">
               <h4 class="tera font-h4 bold push-1-4">{{include.data.type_secondary}}</h4>
               <div class="font-img font-second">
-                <img class="img-flex" src="{{include.data.tpye_img_secondary}}" alt="">
+                <img class="img-flex" src="{{include.data.type_img_secondary}}" alt="">
               </div>
             </div>
           </div>
@@ -112,13 +150,13 @@
       <div class="carousel-item" id="audience">
         <div class="max-length gutter">
           <h3 class="bd-h3 push-1-4">Target Audience</h3>
-          <p>This website was aimed at an audience who loves little fuzzy critters. More specifically young to older adults between the ages of 18-46. Male and female are both suspected to present but females are likely to be the dominant. These folks are likely to be a couple with no plan for children and only cats as pets. They treat their cat as their child and therefore adore everything about cats and look to find, fill and personalize their lives with cat memorabilia.</p>
+          <p>{{include.data.target_info}}</p>
         </div>
       </div>
       <div class="carousel-item" id="design">
         <div class="max-length gutter">
           <h3 class="bd-h3 push-1-4">Visual Design</h3>
-          <p>The overall visual design was meant to be clean and simple. It's general theme was space and used minimal illustrative elements since the focus of the website should be on the products themselves. It used a lot of white space to help push the idea of space even further.</p>
+          <p>{{include.data.visual_info}}</p>
         </div>
       </div>
     </div>

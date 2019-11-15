@@ -1,0 +1,9 @@
+title: "Cards"
+description: |
+  The Cards' patterns are repeating elements used on a single page.
+
+patterns:
+  img-card:
+    title: "Image Gallery Card"
+    description: |
+      The Image Gallery Card is to used to display extra images for projects in a gallery. It is only to be used with the Image Gallery pattern.
