@@ -11,7 +11,3 @@ patterns:
     title: "Social Navigation"
     description: |
       The social navigation is used to link to my other social media outlets as well as my mail. It's used as the contanct info for the page and should only be found in the footer of the website.
-  projects-nav:
-    title: "Project Navigation"
-    description: |
-      Still under construction.

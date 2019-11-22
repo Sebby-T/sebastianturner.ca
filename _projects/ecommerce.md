@@ -20,7 +20,7 @@ color_info: |
   The purple represent a deep space feeling and sets a mood for the website. White represents the stars we see in the sky. These accents pair well and create a space themed harmony with the purple and white colours.
 main_colors:
   - "#8563ee"
-  - "#fff"
+  - "#ffffff"
 accent_colors:
   - "#fed676"
   - "#ff2f84"

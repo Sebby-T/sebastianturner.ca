@@ -26,15 +26,24 @@
   outline: 3px solid var(--color-secondary);
 }
 
-.head-nav a {
+.pro-check[type="checkbox"] + label::before {
+  position: absolute;
+  top: -50em;
+  left: -50em;
+}
+
+.head-nav a,
+.head-nav label {
   color: var(--color-secondary);
 }
 
-.head-nav a:hover {
+.head-nav a:hover,
+.head-nav label:hover {
   color: var(--color-aqua);
 }
 
-.head-nav a:focus {
+.head-nav a:focus
+.head-nav label:focus {
   color: var(--color-aqua);
   outline: 3px solid var(--color-secondary);
 }
@@ -49,23 +58,25 @@
   transition: .3s ease-in-out;
 }
 
-.head-nav a:hover + .underline {
+.head-nav a:hover ~ .underline,
+.head-nav label:hover ~ .underline {
   width: 100%;
   opacity: 1;
 }
 
-.slide-out {
+.pro-nav {
+  overflow: hidden;
+  width: 0;
+  opacity: 0;
+  height: 100%;
   background-color: var(--color-primary-light);
+  transition: .5s ease-out;
 }
 
-.border-left {
-  position: absolute;
-  border-left: 3px solid var(--color-secondary);
-  min-height: 100%
-}
+.pro-check:checked ~ .pro-nav {
+  width: 100%;
+  opacity: 1;
 
-.project-nav {
-  margin-left: 10%;
 }
 
 .project-nav a {
