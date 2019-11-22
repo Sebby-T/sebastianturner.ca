@@ -65,6 +65,11 @@
   display: none;
 }
 
+.colour-box .colour-text > p {
+  color: #fff;
+  text-shadow: 1px 1px 2px #000;
+}
+
 #colours-control:checked ~ .carousel-inner #colours,
 #typeface-control:checked ~ .carousel-inner #typeface,
 #audience-control:checked ~ .carousel-inner #audience,

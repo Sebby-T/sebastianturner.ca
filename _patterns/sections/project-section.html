@@ -6,11 +6,11 @@
       </div>
     </div>
     <div class="project-content unit xs-1 s-1 m-1 {% if include.section_norm == 'true' %}unit-pull-l-1-2{% endif %} l-1-2 xl-1-2 gutter-1-2 push">
-      <h2 class="light tera push-1-2">{{include.data.title}}</h2>
+      <h2 class="light giga push-1-2">{{include.data.title}}</h2>
       <h3 class="mega bold push-0">Categories</h3>
       <ul class="list-group-inline milli push-1-2">
         {% for cat in include.data.categories %}
-        <li class="item slash">{{cat}}</li>
+          <li class="item slash">{{cat}}</li>
         {% endfor %}
       </ul>
       <p>{{include.data.project_desc}}</p>

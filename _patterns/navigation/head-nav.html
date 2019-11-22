@@ -26,9 +26,9 @@
           <div class="pro-nav gutter-1-2 pin-lt">
             <nav class="project-nav pad-t-2 w-1">
               <ul class="list-group giga text-upper text-left gutter-1-2">
-                <li class="gutter-1-2 pad-t-1-2 pad-b-1-2 w-1"><a href="#">project 1</a></li>
-                <li class="gutter-1-2 pad-t-1-2 pad-b-1-2 w-1"><a href="#">project 2</a></li>
-                <li class="gutter-1-2 pad-t-1-2 pad-b-1-2 w-1"><a href="#">project 3</a></li>
+                {% for proj in site.projects %}
+                <li class="gutter-1-2 pad-t-1-2 pad-b-1-2 w-1"><a href="{{proj.url}}">{{proj.title}}</a></li>
+                {% endfor %}
               </ul>
             </nav>
           </div>

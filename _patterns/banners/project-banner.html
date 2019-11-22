@@ -1,4 +1,4 @@
-<div class="project-banner grid pad-t grid-middle pad-b wrapper gutter pad-t pad-b">
+<div class="project-banner grid grid-middle wrapper gutter pad-t pad-b">
   <div class="pb-img unit xs-1 s-1 m-1 unit-push-l-1-2 l-1-2 xl-1-2 push">
     <img class="img-flex" src="{{include.data.project_img_dis}}" alt="">
   </div>
@@ -8,39 +8,5 @@
     <div class="milli push-1-2">
       {% pattern buttons/exit-button text="See the website here" url=include.data.web_url aria_label="This link will lead you to Catonaut website." %}
     </div>
-  </div>
-</div>
-<div class="pb-tags grid max-length gutter-1-2 push">
-  <div class="unit xs-1-2 s-1-2 m-1-2 l-1-4 xl-1-4 gutter-1-2">
-    <h2 class="kilo push-1-4 normal">Categories</h2>
-    <ul class="pb-tag-items list-group milli">
-      {% for cat in include.data.categories %}
-      <li class="push-1-8">{{cat}}</li>
-      {% endfor %}
-    </ul>
-  </div>
-  <div class="unit xs-1-2 s-1-2 m-1-2 l-1-4 xl-1-4 gutter-1-2">
-    <h2 class="kilo push-1-4 normal">Client</h2>
-    <ul class="pb-tag-items list-group milli">
-      {% for clients in include.data.clients %}
-      <li class="push-1-8">{{clients}}</li>
-      {% endfor %}
-    </ul>
-  </div>
-  <div class="unit xs-1-2 s-1-2 m-1-2 l-1-4 xl-1-4 gutter-1-2">
-    <h2 class="kilo push-1-4 normal">Role</h2>
-    <ul class="pb-tag-items list-group milli">
-      {% for role in include.data.role %}
-      <li class="push-1-8">{{role}}</li>
-      {% endfor %}
-    </ul>
-  </div>
-  <div class="unit xs-1-2 s-1-2 m-1-2 l-1-4 xl-1-4 gutter-1-2">
-    <h2 class="kilo push-1-4 normal">Year</h2>
-    <ul class="pb-tag-items list-group milli">
-      {% for year in include.data.year %}
-      <li class="push-1-8">{{year}}</li>
-      {% endfor %}
-    </ul>
   </div>
 </div>

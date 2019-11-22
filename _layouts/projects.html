@@ -3,7 +3,12 @@ layout: default
 ---
 
 <main role="main" id="main">
-  {% pattern banners/project-banner data=page %}
+  {% if page.video_src %}
+    {% pattern banners/video-banner data=page %}
+  {% else %}
+    {% pattern banners/project-banner data=page %}
+  {% endif %}
+  {% pattern banners/project-cat data=page %}
   {% pattern sections/breakdown-section data=page %}
   {% pattern sections/image-gallery data=page %}
 </main>
