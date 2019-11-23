@@ -1,6 +1,6 @@
 ---
 layout: projects
-title: "Ecommerce Website"
+title: "Catonaut Ecommerce"
 project_desc: |
   Catonaut is an ecommerce website that was built using the pattern library. It's based on creating all the possible components that the website could use to build on itself as it expands in the future.
 web_url: "https://epic-khorana-dd08aa.netlify.com/"

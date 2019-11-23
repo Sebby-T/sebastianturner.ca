@@ -3,17 +3,17 @@ layout: projects
 video_src: "Lz4oUVMSr0Y"
 title: "8Bit Broadcast Package"
 project_desc: |
-  Catonaut is an ecommerce website that was built using the pattern library. It's based on creating all the possible components that the website could use to build on itself as it expands in the future.
+  8Bit is video game streaming service that brings you up to date information on all the hottest games out there. This video demonstrates the main components of a broadcast package, such as an opening and closing logo, a lower thirds and multiple transitions.
 categories:
   - "Motion"
-  - "Web Design"
+  - "Broadcast Package"
 clients:
   - "Algonquin"
 role:
   - "Motion Designer"
 year:
   - "2019"
-project_img_dis: "/images/project-img-dis/mockup-catonaut.png"
+project_img_dis: "/images/project-img-dis/mockup-broadcast-package.png"
 color_info: |
   The purple represent a deep space feeling and sets a mood for the website. White represents the stars we see in the sky. These accents pair well and create a space themed harmony with the purple and white colours.
 main_colors:

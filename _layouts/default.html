@@ -13,12 +13,12 @@
     <li><a href="#nav">Skip to navigation</a></li>
     <li><a href="#main">Skip to the main content</a></li>
   </ul>
-
-  {% pattern header/header %}
-  <main role="main" id="main">
+  <div class="zindex-1">
+    {% pattern header/header %}
+  </div>
+  <main class="zindex-0" role="main" id="main">
     {{content}}
   </main>
-
   {% pattern footer/footer %}
 
 </body>
