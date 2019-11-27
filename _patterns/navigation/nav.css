@@ -180,4 +180,8 @@
     text-align: right;
   }
 
+  .project-nav ul {
+    text-align: left;
+  }
+
 }
