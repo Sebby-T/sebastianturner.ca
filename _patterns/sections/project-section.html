@@ -14,7 +14,7 @@
         {% endfor %}
       </ul>
       <p>{{include.data.project_desc}}</p>
-      {% pattern buttons/grad text="View case study" url=include.data.url aria="This link will lead you to *insert destination here*." %}
+      {% pattern buttons/grad text="View case study" url=include.data.url aria=include.data.project_label %}
     </div>
   </div>
 </section>

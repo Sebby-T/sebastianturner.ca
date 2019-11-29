@@ -45,6 +45,9 @@
 .head-nav a:focus
 .head-nav label:focus {
   color: var(--color-aqua);
+}
+
+.nav li > a:focus {
   outline: 3px solid var(--color-secondary);
 }
 

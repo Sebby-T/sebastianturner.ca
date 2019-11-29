@@ -10,5 +10,7 @@ layout: default
   {% endif %}
   {% pattern banners/project-cat data=page %}
   {% pattern sections/breakdown-section data=page %}
-  {% pattern sections/image-gallery data=page %}
+  {% if page.gallery %}
+    {% pattern sections/image-gallery data=page %}
+  {% endif %}
 </main>

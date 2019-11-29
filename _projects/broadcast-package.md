@@ -1,9 +1,11 @@
 ---
 layout: projects
 video_src: "Lz4oUVMSr0Y"
-title: "8Bit Broadcast Package"
+title: "8 Bit Broadcast Package"
+metaDescription: "A case study on the broadcast package for 8 bit game streaming service."
+project_label: "This link will bring you to the 8 Bit broadcast package case study page."
 project_desc: |
-  8Bit is video game streaming service that brings you up to date information on all the hottest games out there. This video demonstrates the main components of a broadcast package, such as an opening and closing logo, a lower thirds and multiple transitions.
+  This video demonstrates the main components of a broadcast package. This includes an opening and closing logo, a lower thirds and multiple transitions. 8 Bit is a video game streaming service that brings you up to date information on all the hottest games out there.
 categories:
   - "Motion"
   - "Broadcast Package"
@@ -15,29 +17,20 @@ year:
   - "2019"
 project_img_dis: "/images/project-img-dis/mockup-broadcast-package.png"
 color_info: |
-  The purple represent a deep space feeling and sets a mood for the website. White represents the stars we see in the sky. These accents pair well and create a space themed harmony with the purple and white colours.
+  The use of colours in this broadcast package were to be reminiscent of a 8 bit style era. The purples created the sense of retroism while the accent colours supported this theme.
 main_colors:
-  - "#8563ee"
-  - "#ffffff"
+  - "#721563"
+  - "#20113f"
 accent_colors:
-  - "#fed676"
-  - "#ff2f84"
-  - "#14abf0"
+  - "#f22183"
+  - "#bd77d1"
+  - "#56ffc4"
 type_info: |
-  Open Sans was selected because of its clean and easy readability for web. Quicksand was selected because of its soft geometric characteristics. It fits well with the fun space theme and lends itself to being creative and futuristic.
-type_prime: "Open Sans"
-type_img_prime: "/images/fonts/open-sans.svg"
-type_secondary: "Quicksand"
-type_img_secondary: "/images/fonts/quicksand.svg"
+  Objektiv was used because of its display like attributes. Its black font is very impactful which is well suited for news information. Its modern style was chosen on purpose for clean readability while also letting the viewer know that the information is up to date. Even if the theme is retro.
+type_prime: "Objektiv"
+type_img_prime: "/images/fonts/objektiv.svg"
 target_info: |
-  This website was aimed at an audience who loves little fuzzy critters. More specifically young to older adults between the ages of 18-46. Male and female are both suspected to present but females are likely to be the dominant. These folks are likely to be a couple with no plan for children and only cats as pets. They treat their cat as their child and therefore adore everything about cats and look to find, fill and personalize their lives with cat memorabilia.
+  This broadcast package was aimed at an audience who loves anything and everything to do with gaming and game related news. The target age is generally for an older audience, ranging between 16–30.
 visual_info: |
-  The overall visual design was meant to be clean and simple. It's general theme was space and used minimal illustrative elements since the focus of the website should be on the products themselves. It used a lot of white space to help push the idea of space even further.
-gallery:
-  - "/images/portfolio-images/ecommerce/ecommerce-homepage.jpg"
-  - "/images/portfolio-images/ecommerce/ecommerce-product-list-page.jpg"
-  - "/images/portfolio-images/ecommerce/ecommerce-product-details-page.jpg"
-  - "/images/portfolio-images/ecommerce/ecommerce-checkout-page.jpg"
-  - "/images/portfolio-images/ecommerce/ecommerce-pattern-examples.jpg"
-  - "/images/portfolio-images/ecommerce/ecommerce-sitemap.jpg"
+  The overall visual design is retro 8-bit gaming. Since the market of gamers are generally mid to adult males, the goal was to appease their childhood nostalgia of gaming. To do this I used a very pixel stylized approach because that is a significant part of gaming history. In fact it's where a lot of fond childhood video game memories began.
 ---

@@ -1,9 +1,13 @@
 ---
 layout: projects
 title: "Freedom Dog Rescue"
+metaDescription: "A case study on the Ottawa Freedom Dog Rescue website redesign."
+project_label: "This link will bring you to the Freedom Dog Rescue case study page."
 project_desc: |
-  Freedom dog rescue was a case study project. I took an existing animal rescue website that was… less than optimal, and I improved on it. Adding in responsiveness, accessibility and an overhaul in visual design.
+  Freedom Dog Rescue was a case study project. I took an existing animal rescue website that was… less than optimal, and I improved on it. Adding in responsiveness, accessibility and an overhaul in visual design.
+btn_text: "Visit the website here"
 web_url: "https://sebby-t.github.io/animal-rescue-website/"
+aria_label: "This link will bring you to the redesigned Freedom Dog Rescue website."
 categories:
   - "Web Development"
   - "Web Design"
