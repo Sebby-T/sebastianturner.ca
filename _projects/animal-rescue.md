@@ -2,6 +2,7 @@
 layout: projects
 title: "Freedom Dog Rescue"
 metaDescription: "A case study on the Ottawa Freedom Dog Rescue website redesign."
+meta_keywords: "Web, Design, Responsive, Accessible"
 project_label: "This link will bring you to the Freedom Dog Rescue case study page."
 project_desc: |
   Freedom Dog Rescue was a case study project. I took an existing animal rescue website that was… less than optimal, and I improved on it. Adding in responsiveness, accessibility and an overhaul in visual design.

@@ -1,8 +1,9 @@
 ---
 layout: projects
-video_src: "Lz4oUVMSr0Y"
+video_src: "OvcVRY5H1dc"
 title: "8 Bit Broadcast Package"
 metaDescription: "A case study on the broadcast package for 8 bit game streaming service."
+meta_keywords: "Motion, Design, Graphics, Broadcast Package"
 project_label: "This link will bring you to the 8 Bit broadcast package case study page."
 project_desc: |
   This video demonstrates the main components of a broadcast package. This includes an opening and closing logo, a lower thirds and multiple transitions. 8 Bit is a video game streaming service that brings you up to date information on all the hottest games out there.

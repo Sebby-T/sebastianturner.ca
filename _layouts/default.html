@@ -5,6 +5,19 @@
   <title>{% if page.title %}{{page.title}} · {% endif %}Sebastian Turner{% if page.titleAfter %} · {{page.titleAfter}}{% endif %}</title>
   <meta name="description" content="{{page.metaDescription}}">
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="ICBM" content="45.41117,-75.69812">
+  <meta name="geo.position" content="45.41117;-75.69812">
+  <meta name="geo.region" content="ca-on">
+  <meta name="geo.placename" content="Ottawa">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{% if page.title %}{{page.title}} · {% endif %}Sebastian Turner{% if page.titleAfter %} · {{page.titleAfter}}{% endif %}">
+  <meta property="og:url" content="https://sebastianturner.ca{{page.url}}">
+  <meta property="og:image" content="https://robotparts.co/images/sebastian-turner-logo-coloured.png">
+  <meta property="og:site_name" content="Sebastian Turner">
+  <meta property="og:description" content="{{page.metaDescription}}">
+  <meta property="og:locale" content="en_CA">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@robotpartsco">
   <link rel="shortcut icon" href="favicon.ico">
   <link rel="icon" type="image/png" href="favicon-196.png">
   <link rel="stylesheet" href="/css/main.css">
@@ -21,6 +34,33 @@
     {{content}}
   </main>
   {% pattern footer/footer %}
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CreativeWork",
+      "name": "{% if page.title %}{{page.title}} · {% endif %}Sebastian Turner{% if page.titleAfter %} · {{page.titleAfter}}{% endif %}",
+      "author": {
+        "@type": "Person",
+        "@id": "#sebastianturner"
+      },
+      "description": "{{page.metaDescription}}",
+      "image": "https://sebastianturner.ca/images/sebastian-turner-logo-coloured.png",
+      "url": "https://sebastianturner.ca{{page.url}}",
+      "keywords": "{{page.meta_keywords}}"
+    }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "@id": "#sebastianturner",
+    "name": "Sebastian Turner",
+    "email": "sebastianturner@fastmail.com",
+    "url": "https://sebastianturner.ca"
+  }
+</script>
 
 </body>
 </html>
