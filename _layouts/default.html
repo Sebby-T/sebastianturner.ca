@@ -28,12 +28,14 @@
     <li><a href="#main">Skip to the main content</a></li>
     <li><a href="#contact">Skip to contact information</a></li>
   </ul>
-
   {% pattern header/header %}
-  <main class="marg-top" role="main" id="main">
+  {% pattern navigation/big-nav %}
+  <main role="main" id="main">
     {{content}}
   </main>
   {% pattern footer/footer %}
+
+  <script src="/js/main.js"></script>
 
   <script type="application/ld+json">
     {

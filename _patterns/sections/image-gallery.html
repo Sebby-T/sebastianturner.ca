@@ -1,9 +1,9 @@
-<section class="gallery pad-t pad-b gutter-1-2">
+<section class="gallery pad-t pad-b">
   <h2 class="text-center">Gallery</h2>
   <div class="grid wrapper">
     {% for gal in include.data.gallery %}
-    <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4 island-1-2">
-      {% pattern cards/img-card data=gal number=forloop.index %}
+    <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4">
+      {% pattern cards/card-two data=gal number=forloop.index %}
     </div>
     {% endfor %}
   </div>

@@ -1,0 +1,23 @@
+<nav class="big-nav zindex-1000" id="big-nav">
+  <ul class="grid grid-middle nav-two bold  text-upper giga list-group push-0 text-left gutter pad-t">
+    <li class="unit xs-1-2 s-1-2 m-1-2 l-1-2 text-left push-2">
+      <i class="icon logo i-64">
+        <svg><use xlink:href="/images/icons.svg#logo" /></svg>
+      </i>
+    </li>
+    <li class="unit xs-1-2 s-1-2 m-1-2 l-1-2 text-right push-2">
+      <a href="#" class="relative tog-btn close-btn ib">
+        <i class="icon i-64">
+          <svg width="256" height="256" viewBox="0 0 256 256">
+            <line id="close-1" x1="64" y1="64" x2="192" y2="192" stroke-linecap="round" stroke-width="15" />
+            <line id="close-2" x1="64" y1="192" x2="192" y2="64" stroke-linecap="round" stroke-width="15" />
+          </svg>
+        </i>
+        <span class="text-upper pico bold">close</span>
+      </a>
+    </li>
+    {% for proj in site.projects %}
+      <li class="unit xs-1 project pad-t-1-4 pad-b-1-4"><a class="ib" href="{{proj.url}}">{{proj.title}}</a></li>
+    {% endfor %}
+  </ul>
+</nav>

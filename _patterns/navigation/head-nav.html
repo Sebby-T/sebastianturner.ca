@@ -1,5 +1,5 @@
 <div class="wrapper grid grid-middle">
-  <div class="unit xs-1 s-1 m-1-4 logo text-center">
+  <div class="unit xs-1 s-1 m-1-4 text-center">
     <a class="head-logo giga relative icon pad-b-1-2" href="/index.html" aria-label="This link will return you to Sebastian Turners portfolio homepage.">
       <i class="icon i-64 relative">
         <svg><use xlink:href="/images/icons.svg#logo"></use></svg>
@@ -17,27 +17,8 @@
         <hr class="underline" />
       </li>
       <li class="gutter-1-2 push-t-1-2 pad-b-1-2">
-        <input class="inner-check" id="inner-nav" type="checkbox">
-        <label for="inner-nav">Projects</label>
+        <a href="/index.html/#projects" class="tog-btn" for="inner-nav">Projects</a>
         <hr class="underline" />
-        <nav class="nav-inner">
-          <ul class="nav-two giga list-group push-0 text-left gutter pad-t">
-            <li class="text-right">
-              <label for="inner-nav" class="relative close-btn ib">
-                <i class="icon i-64">
-                  <svg width="256" height="256" viewBox="0 0 256 256">
-                    <line id="close-1" x1="64" y1="64" x2="192" y2="192" stroke-linecap="round" stroke-width="15" />
-                    <line id="close-2" x1="64" y1="192" x2="192" y2="64" stroke-linecap="round" stroke-width="15" />
-                  </svg>
-                </i>
-                <span class="text-upper pico bold">close</span>
-              </label>
-            </li>
-            {% for proj in site.projects %}
-              <li class="pad-t-1-4 pad-b-1-4"><a class="ib" href="{{proj.url}}">{{proj.title}}</a></li>
-            {% endfor %}
-          </ul>
-        </nav>
       </li>
       <li class="gutter-1-2 push-t-1-2 pad-b-1-2">
         <a href="#contact" aria-label="This link will directed you to my contact information.">contact</a>

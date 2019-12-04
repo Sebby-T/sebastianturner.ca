@@ -9,7 +9,7 @@ project_desc: |
 btn_text: "Visit the Catonaut website"
 web_url: "https://epic-khorana-dd08aa.netlify.com/"
 ariaLink_label: "This link will lead you to the finished Catonaut website"
-btn2_text: "Visit the pattern library here"
+btn2_text: "Visit the pattern library"
 web2_url: "https://epic-khorana-dd08aa.netlify.com/pattern-library/#brand"
 ariaLink2_label: "This link will lead you to the Catonaut pattern library."
 categories:
