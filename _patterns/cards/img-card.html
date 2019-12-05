@@ -1,12 +1,19 @@
 <div class="img-card embed embed-1by1">
   <a class="img-item img-btn embed-item link-box" href="#img-id-{{include.number}}">
-    <div>
+    <div class="transition">
       <img class="img-flex" src="{{gal}}" alt="thumbnail">
     </div>
   </a>
-  <a class="overlay img-btn link-box" href="#_" id="img-id-{{include.number}}">
-    <div class="img-expand">
+  <div class="overlay link-box relative transition" id="img-id-{{include.number}}">
+    <div class="island-1-4 img-close">
+      <a href="#_" class="close island-1-8 push-0">
+        <i class="icon i-1">
+          <svg><use xlink:href="/images/icons.svg#close"></use></svg>
+        </i>
+      </a>
+    </div>
+    <div class="img-expand pin-c">
       <img class="img-flex" src="{{gal}}" alt="fullscreen">
     </div>
-  </a>
+  </div>
 </div>
