@@ -1,17 +1,33 @@
 <div class="img-card embed embed-1by1">
   <a class="img-item img-btn embed-item link-box" href="#img-id-{{include.number}}">
     <div class="transition">
-      <img class="img-flex" src="{{gal}}" alt="thumbnail">
+      <img class="img-flex" src="{{gal}}" alt="thumbnail" role="decoration">
     </div>
   </a>
   <div class="overlay link-box relative transition" id="img-id-{{include.number}}">
-    <div class="island-1-4 img-close">
-      <a href="#_" class="close island-1-8 push-0">
+    <div class="island-1-2 img-close">
+      <a href="#_" class="close island-1-8 push-0 btn-ctrl">
         <i class="icon i-1">
           <svg><use xlink:href="/images/icons.svg#close"></use></svg>
         </i>
       </a>
     </div>
+    <menu class="controls grid grid-middle">
+      <div class="unit xs-1-2 text-left">
+        <button class="btn-ctrl island-1-8" id="btn-prev">
+          <i class="icon i-1">
+            <svg><use xlink:href="/images/icons.svg#chevron"></use></svg>
+          </i>
+        </button>
+      </div>
+      <div class="unit xs-1-2 text-right">
+        <button class="btn-ctrl island-1-8" id="btn-next">
+          <i class="icon i-1">
+            <svg><use xlink:href="/images/icons.svg#chevron"></use></svg>
+          </i>
+        </button>
+      </div>
+    </menu>
     <div class="img-expand pin-c">
       <img class="img-flex" src="{{gal}}" alt="fullscreen">
     </div>

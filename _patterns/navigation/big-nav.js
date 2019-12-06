@@ -5,14 +5,13 @@ $togBtn.on('click', function (e) {
   e.preventDefault();
   if ($bigNav.hasClass('open')) {
     $bigNav.removeClass('open');
-    var html = jQuery('html');
-    html.css('overflow', html.data('previous-overflow'));
-    window.scrollTo(scrollPosition[0], scrollPosition[1])
+    $('body').removeClass('no-scroll');
+    const scrollY = document.body.style.top;
+    document.body.style.top = '';
+    window.scrollTo(0, parseInt(scrollY || '0') * -1);
   } else {
+    document.body.style.top = `-${window.scrollY}px`;
     $bigNav.addClass('open');
-    var html = jQuery('html');
-    html.data('previous-overflow', html.css('overflow'));
-    html.css('overflow', 'hidden');
-    window.scrollTo(scrollPosition[0], scrollPosition[1]);
+    $('body').addClass('no-scroll')
   }
 });
