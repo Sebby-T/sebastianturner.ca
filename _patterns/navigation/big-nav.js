@@ -2,7 +2,7 @@ var $bigNav = $('#big-nav');
 var $togBtn = $('.tog-btn');
 var $item = $('.item');
 
-$togBtn.on('click', function (e) {
+var togNav = function (e) {
   e.preventDefault();
   if ($bigNav.hasClass('open')) {
     $bigNav.removeClass('open');
@@ -26,5 +26,15 @@ $togBtn.on('click', function (e) {
     $item.attr('tabindex', function(index, attr) {
       return index = 0;
     });
+  }
+}
+
+$togBtn.on('click', togNav);
+
+$(document).on('keydown', function(e) {
+  if (e.key=='Escape') {
+    if ($bigNav.hasClass('open')) {
+      togNav(e);
+    }
   }
 });

@@ -1,5 +1,5 @@
 <div class="img-card">
-  <a class="img-item img-btn" href="#img-id-{{include.number}}" aria-label="{{gal.info}}">
+  <a class="img-item img-btn no-focus" href="#img-id-{{include.number}}" aria-label="{{gal.info}}">
     <div class="embed embed-1by1 transition">
       <div class="embed-item transition">
         <img class="img-flex" src="{{gal.file}}" alt="{{gal.caption}}" role="decoration">
@@ -8,33 +8,33 @@
   </a>
   <div class="overlay link-box relative transition" id="img-id-{{include.number}}">
     <div class="island-1-2 img-close">
-      <a href="#_" class="close island-1-8 push-0 btn-ctrl" aria-label="Click this to exit fullscreen.">
-        <i class="icon i-1">
+      <a href="#_" class="close island-1-8 push-0 btn-ctrl" tabindex="1" aria-label="Click this button or hit the escape ket to exit fullscreen.">
+        <i class="icon i-24">
           <svg><use xlink:href="/images/icons.svg#close"></use></svg>
         </i>
       </a>
     </div>
-    <!-- <menu class="controls grid grid-middle">
+    <menu class="controls grid grid-middle">
       <div class="unit xs-1-2 text-left">
-        <button class="btn-ctrl island-1-8" id="btn-prev">
+        <button class="btn-ctrl island-1-8 btn-prev" tabindex="3" id="btn-prev-{{include.number}}" aria-label="Click this button to view the previous image.">
           <i class="icon i-1">
             <svg><use xlink:href="/images/icons.svg#chevron"></use></svg>
           </i>
         </button>
       </div>
       <div class="unit xs-1-2 text-right">
-        <button class="btn-ctrl island-1-8" id="btn-next">
+        <button class="btn-ctrl island-1-8 btn-next" tabindex="3" id="btn-next-{{include.number}}" aria-label="Click this button to view the next image.">
           <i class="icon i-1">
             <svg><use xlink:href="/images/icons.svg#chevron"></use></svg>
           </i>
         </button>
       </div>
-    </menu> -->
+    </menu>
     <div class="img-expand pin-c relative">
-      <div class="caption pad-t-1-2 pad-b-1-2 text-left">
-        <span class="milli max-length-no-center">{{gal.caption}}</span>
+      <div class="caption pad-t-1-2 pad-b-1-2 text-left" aria-details="#img-caption" tabindex="2">
+        <span class="milli max-length-no-center" id="img-caption">{{gal.caption}}</span>
       </div>
-      <img class="img-flex" src="{{gal.file}}" alt="Image missing. So sorry." role="decoration">
+      <img class="img-flex" src="{{gal.file}}" alt="{{gal.caption}}" role="decoration">
     </div>
   </div>
 </div>

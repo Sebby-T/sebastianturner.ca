@@ -1,9 +1,9 @@
 <section class="carousel">
 
-  <input class="carousel-input" type="radio" name="breakdown" id="colours-control" checked>
-  <input class="carousel-input" type="radio" name="breakdown" id="typeface-control">
-  <input class="carousel-input" type="radio" name="breakdown" id="audience-control">
-  <input class="carousel-input" type="radio" name="breakdown" id="design-control">
+  <input tabindex="0" class="carousel-input no-focus" type="radio" name="breakdown" id="colours-control" checked>
+  <input tabindex="0" class="carousel-input no-focus" type="radio" name="breakdown" id="typeface-control">
+  <input tabindex="0" class="carousel-input no-focus" type="radio" name="breakdown" id="audience-control">
+  <input tabindex="0" class="carousel-input no-focus" type="radio" name="breakdown" id="design-control">
   <div class="carousel-inner">
     <div class="carousel-controls text-center">
       <ul class="list-group relative">
@@ -43,7 +43,7 @@
     </div>
 
     <div class="arrow-cont text-center">
-      <ul class="arrow-list list-group ">
+      <ul class="arrow-list list-group">
         <li>
           <div id="arrow-col">
             <svg class="img-flex" id="arrow" width="256" height="128" viewBox="0 0 256 128">
@@ -76,7 +76,7 @@
     </div>
 
     <div class="carousel-items wrapper pad-t pad-b">
-      <div class="carousel-item" id="colours" aria-details="#colour-info" tabindex="0">
+      <div class="carousel-item no-focus" id="colours" aria-details="#colour-info" tabindex="0">
         <div class="grid grid-middle gutter-1-2">
           <div class="unit xs-1 s-1 unit-push-m-1-2 m-1-2 l-1-2 xl-1-2 gutter-1-2 push">
             <div class="colour-box grid">
@@ -125,7 +125,7 @@
           </div>
         </div>
       </div>
-      <div class="carousel-item" id="typeface" aria-details="#type-info" tabindex="0">
+      <div class="carousel-item no-focus" id="typeface" aria-details="#type-info" tabindex="0">
         <div class="grid grid-middle gutter-1-2">
           <div class="unit xs-1 s-1 unit-push-m-1-2 m-1-2 l-1-2 xl-1-2 gutter-1-2 push-1-2">
             <div class="push">
@@ -149,13 +149,13 @@
           </div>
         </div>
       </div>
-      <div class="carousel-item" id="audience" aria-details="#target-info" tabindex="0">
+      <div class="carousel-item no-focus" id="audience" aria-details="#target-info" tabindex="0">
         <div class="max-length gutter" aria-details="target-info">
           <h3 class="bd-h3 push-1-4">Target Audience</h3>
           <p>{{include.data.target_info}}</p>
         </div>
       </div>
-      <div class="carousel-item" id="design" aria-details="#visual-info" tabindex="0">
+      <div class="carousel-item no-focus" id="design" aria-details="#visual-info" tabindex="0">
         <div class="max-length gutter" aria-details="visual-info">
           <h3 class="bd-h3 push-1-4">Visual Design</h3>
           <p>{{include.data.visual_info}}</p>

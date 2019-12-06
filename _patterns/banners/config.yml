@@ -10,4 +10,12 @@ patterns:
   project-banner:
     title: "Project Banner"
     description: |
-      The project banner displays a the top of every portfolio page piece.
+      The project banner displays a the top of every portfolio piece page that involves static content. It contains a title, description, links and a display image of the project.
+  video-banner:
+    title: "Video Project Banner"
+    description: |
+      The video project banenr appears on the top of every portfolio piece page that involves video content. It contains a title, description and an embeded Youtube video source.
+  project-cat:
+    title: "Projects Categories"
+    description: |
+      This project catergories contains

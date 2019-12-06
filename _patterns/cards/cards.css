@@ -34,11 +34,16 @@
 
 .overlay .img-expand {
 
-  max-width: 80%;
+  max-width: 75%;
   max-height: 90%;
 
   width: 100%;
   height: auto;
+}
+
+.img-expand:focus {
+  outline: 3px solid #fff;
+  outline-offset: 8px;
 }
 
 .img-close {
@@ -60,6 +65,7 @@
 }
 
 .controls {
+  display: none;
   width: 100%;
 
   position: fixed;
@@ -67,10 +73,9 @@
   left: 0;
   top: 50%;
   transform: translateY(-50%);
-
 }
 
-#btn-prev {
+.btn-prev {
   transform: rotate(180deg);
 }
 
@@ -94,10 +99,16 @@
   color: #fff;
 }
 
+.overlay .btn-ctrl:focus {
+  outline-color: #fff;
+  opacity: 1;
+  outline-offset: 6px;
+}
+
 @media only screen and (min-width: 90em) {
 
   .overlay .img-expand {
-    max-width: 70%;
+    max-width: 65%;
   }
 
 }
