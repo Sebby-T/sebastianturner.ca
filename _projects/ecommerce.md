@@ -24,6 +24,7 @@ role:
 year:
   - "2019"
 project_img_dis: "/images/project-img-dis/mockup-catonaut.png"
+dis_missing: "Catonaut Ecommerce website mockup in a Macbook"
 color_info: |
   The purple represent a deep space feeling and sets a mood for the website. White represents the stars we see in the sky. These accents pair well and create a space themed harmony with the purple and white colours.
 main_colors:
@@ -44,10 +45,22 @@ target_info: |
 visual_info: |
   The overall visual design was meant to be clean and simple. It's general theme was space and used minimal illustrative elements since the focus of the website should be on the products themselves. It used a lot of white space to help push the idea of space even further.
 gallery:
-  - "/images/portfolio-images/ecommerce/ecommerce-homepage.jpg"
-  - "/images/portfolio-images/ecommerce/ecommerce-product-list-page.jpg"
-  - "/images/portfolio-images/ecommerce/ecommerce-product-details-page.jpg"
-  - "/images/portfolio-images/ecommerce/ecommerce-checkout-page.jpg"
-  - "/images/portfolio-images/ecommerce/ecommerce-pattern-examples.jpg"
-  - "/images/portfolio-images/ecommerce/ecommerce-sitemap.jpg"
+  - file: "/images/portfolio-images/ecommerce/ecommerce-homepage.jpg"
+    info: "A wireframe image of the Catonaut website homepage. Click to view this image in fullscreen."
+    caption: "A wireframe image of the Catonaut website homepage."
+  - file: "/images/portfolio-images/ecommerce/ecommerce-product-list-page.jpg"
+    info: "A wireframe image of the Catonaut website product list page. Click to view this image in fullscreen."
+    caption: "A wireframe image of the Catonaut website product list page."
+  - file: "/images/portfolio-images/ecommerce/ecommerce-product-details-page.jpg"
+    info: "A wireframe image of the Catonaut website product details page. Click to view this image in fullscreen."
+    caption: "A wireframe image of the Catonaut website product details page."
+  - file: "/images/portfolio-images/ecommerce/ecommerce-checkout-page.jpg"
+    info: "A wireframe image of the Catonaut website checkout page. Click to view this image in fullscreen."
+    caption: "A wireframe image of the Catonaut website checkout page."
+  - file: "/images/portfolio-images/ecommerce/ecommerce-pattern-examples.jpg"
+    info: "A sample image of the Catonaut website components. Click to view this image in fullscreen."
+    caption: "A sample image of the Catonaut website components."
+  - file: "/images/portfolio-images/ecommerce/ecommerce-sitemap.jpg"
+    info: "A sample image of the Catonaut website sitemap. Click to view this image in fullscreen."
+    caption: "A sample image of the Catonaut website sitemap."
 ---

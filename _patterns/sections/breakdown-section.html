@@ -76,7 +76,7 @@
     </div>
 
     <div class="carousel-items wrapper pad-t pad-b">
-      <div class="carousel-item" id="colours">
+      <div class="carousel-item" id="colours" aria-details="#colour-info" tabindex="0">
         <div class="grid grid-middle gutter-1-2">
           <div class="unit xs-1 s-1 unit-push-m-1-2 m-1-2 l-1-2 xl-1-2 gutter-1-2 push">
             <div class="colour-box grid">
@@ -119,13 +119,13 @@
               </div>
             </div>
           </div>
-          <div class="unit xs-1 s-1 unit-pull-m-1-2 m-1-2 l-1-2 xl-1-2 gutter-1-2">
+          <div class="unit xs-1 s-1 unit-pull-m-1-2 m-1-2 l-1-2 xl-1-2 gutter-1-2" id="colour-info">
             <h3 class="bd-h3 push-1-4">Colours</h3>
             <p class="max-length-no-center push-0">{{include.data.color_info}}</p>
           </div>
         </div>
       </div>
-      <div class="carousel-item" id="typeface">
+      <div class="carousel-item" id="typeface" aria-details="#type-info" tabindex="0">
         <div class="grid grid-middle gutter-1-2">
           <div class="unit xs-1 s-1 unit-push-m-1-2 m-1-2 l-1-2 xl-1-2 gutter-1-2 push-1-2">
             <div class="push">
@@ -143,20 +143,20 @@
             </div>
             {% endif %}
           </div>
-          <div class="unit xs-1 s-1 unit-pull-m-1-2 m-1-2 l-1-2 xl-1-2 gutter-1-2">
+          <div class="unit xs-1 s-1 unit-pull-m-1-2 m-1-2 l-1-2 xl-1-2 gutter-1-2" id="type-info">
             <h3 class="bd-h3 push-1-4">Typeface</h3>
             <p class="push-0">{{include.data.type_info}}</p>
           </div>
         </div>
       </div>
-      <div class="carousel-item" id="audience">
-        <div class="max-length gutter">
+      <div class="carousel-item" id="audience" aria-details="#target-info" tabindex="0">
+        <div class="max-length gutter" aria-details="target-info">
           <h3 class="bd-h3 push-1-4">Target Audience</h3>
           <p>{{include.data.target_info}}</p>
         </div>
       </div>
-      <div class="carousel-item" id="design">
-        <div class="max-length gutter">
+      <div class="carousel-item" id="design" aria-details="#visual-info" tabindex="0">
+        <div class="max-length gutter" aria-details="visual-info">
           <h3 class="bd-h3 push-1-4">Visual Design</h3>
           <p>{{include.data.visual_info}}</p>
         </div>

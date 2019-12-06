@@ -17,6 +17,7 @@ role:
 year:
   - "2019"
 project_img_dis: "/images/project-img-dis/mockup-broadcast-package.png"
+dis_missing: "8 Bit Broadcast Package mockup in a Sony Television."
 color_info: |
   The use of colours in this broadcast package were to be reminiscent of a 8 bit style era. The purples created the sense of retroism while the accent colours supported this theme.
 main_colors:

@@ -1,8 +1,8 @@
-<div class="project-banner grid grid-middle wrapper gutter pad-t pad-b">
+<div class="project-banner grid grid-middle wrapper gutter pad-t pad-b" aria-details="#info" tabindex="0">
   <div class="pb-img unit xs-1 s-1 m-1 unit-push-l-1-2 l-1-2 xl-1-2 push">
-    <img class="img-flex" src="{{include.data.project_img_dis}}" alt="">
+    <img class="img-flex" src="{{include.data.project_img_dis}}" alt="{{include.data.dis_missing}}" role="decoration">
   </div>
-  <div class="pb-content unit xs-1 s-1 m-1 unit-pull-l-1-2 l-1-2 xl-1-2 push">
+  <div class="pb-content unit xs-1 s-1 m-1 unit-pull-l-1-2 l-1-2 xl-1-2 push" id="info">
     <h1 class="push-1-4 giga">{{include.data.title}}</h1>
     <p class="max-length-no-center">{{include.data.project_desc}}</p>
     <div class="milli push-1-2">

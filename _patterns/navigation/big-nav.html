@@ -6,7 +6,7 @@
       </i>
     </li>
     <li class="unit xs-1-2 s-1-2 m-1-2 l-1-2 text-right push-2">
-      <a href="#" class="relative tog-btn close-btn ib">
+      <a href="#" class="relative tog-btn close-btn ib item" tabindex="-1" aria-label="This link will close the projects overlay navigation.">
         <i class="icon i-64">
           <svg width="256" height="256" viewBox="0 0 256 256">
             <line id="close-1" x1="64" y1="64" x2="192" y2="192" stroke-linecap="round" stroke-width="15" />
@@ -17,7 +17,7 @@
       </a>
     </li>
     {% for proj in site.projects %}
-      <li class="unit xs-1 project pad-t-1-4 pad-b-1-4"><a class="ib" href="{{proj.url}}">{{proj.title}}</a></li>
+      <li class="unit xs-1 project pad-t-1-4 pad-b-1-4"><a class="ib item{% if page.highlight_nav == '{{proj.title}}' %} current{% endif %}" href="{{proj.url}}" aria-label="{{proj.project_label}}" tabindex="-1">{{proj.title}}</a></li>
     {% endfor %}
   </ul>
 </nav>

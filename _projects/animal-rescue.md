@@ -8,7 +8,6 @@ project_desc: |
   Freedom Dog Rescue was a case study project. I took an existing animal rescue website that was… less than optimal, and I improved on it. Adding in responsiveness, accessibility and an overhaul in visual design.
 btn_text: "Visit the website here"
 web_url: "https://sebby-t.github.io/animal-rescue-website/"
-aria_label: "This link will bring you to the redesigned Freedom Dog Rescue website."
 categories:
   - "Web Development"
   - "Web Design"
@@ -22,6 +21,7 @@ role:
 year:
   - "2018"
 project_img_dis: "/images/project-img-dis/mockup-animal-rescue.png"
+dis_missing: "Freedom Dog Rescue website mockup in a Macbook"
 color_info: |
   Black and white were chosen as the primary colours for background and body copy since they give a sense of professionalism and create easy readability. For the accent colours the blue-black colour helps the site separate from being overly designed and makes it more approachable. While the orange—used sparingly—as call to action and attention grabber since it creates great contrast.
 main_colors:
@@ -41,9 +41,19 @@ target_info: |
 visual_info: |
   The new visual design was aimed at making the site modern, professional and approachable. It was a balance of colours, imagery and text to make the site feel trustworthy and show that they cared for their website as much as they do finding pets a safe and caring home.
 gallery:
-  - "/images/portfolio-images/animal-rescue/animal-rescue-homepage-wireframe.jpg"
-  - "/images/portfolio-images/animal-rescue/animal-rescue-adoption-page-wireframe.jpg"
-  - "/images/portfolio-images/animal-rescue/animal-rescue-form-page-wireframe.jpg"
-  - "/images/portfolio-images/animal-rescue/animal-rescue-samples.jpg"
-  - "/images/portfolio-images/animal-rescue/animal-rescue-original-example.jpg"
+  - file: "/images/portfolio-images/animal-rescue/animal-rescue-homepage-wireframe.jpg"
+    info: "A wireframe image of the Freedom Dog Rescue homepage. Click to view this image in fullscreen."
+    caption: "A wireframe image of the Freedom Dog Rescue homepage."
+  - file: "/images/portfolio-images/animal-rescue/animal-rescue-adoption-page-wireframe.jpg"
+    info: "A wireframe image of the Freedom Dog Rescue adoption page. Click to view this image in fullscreen."
+    caption: "A wireframe image of the Freedom Dog Rescue adoption page."
+  - file: "/images/portfolio-images/animal-rescue/animal-rescue-form-page-wireframe.jpg"
+    info: "A wireframe image of the Freedom Dog Rescue fillable form page. Click to view this image in fullscreen."
+    caption: "A wireframe image of the Freedom Dog Rescue fillable form page."
+  - file: "/images/portfolio-images/animal-rescue/animal-rescue-samples.jpg"
+    info: "A sample image of the Freedom Dog Rescue components. Click to view this image in fullscreen."
+    caption: "A sample image of the Freedom Dog Rescue components."
+  - file: "/images/portfolio-images/animal-rescue/animal-rescue-original-example.jpg"
+    info: "An original image of the Freedom Dog Rescue website… painful. Click to view this image in fullscreen."
+    caption: "An original image of the Freedom Dog Rescue website… painful."
 ---
