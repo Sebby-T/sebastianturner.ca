@@ -1,0 +1,39 @@
+.oops-content > .oops-inner h2 {
+  color: var(--color-purple);
+}
+
+
+.oops-banner > .oops-content a {
+  color: #000;
+  text-decoration: underline;
+}
+
+.oops-banner > .oops-content a:hover {
+  color: var(--color-purple);
+  text-decoration: underline;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .oops-banner > .oops-content {
+    background-color: #fff;
+
+    width: 25em;
+    height: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    filter: drop-shadow(0 15px 25px rgba(0, 0, 0, .3));
+  }
+
+  .oops-content > .oops-inner {
+    position: absolute;
+    width: 100%
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+}
