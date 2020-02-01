@@ -2,17 +2,15 @@
 layout: default
 ---
 
-<main class="marg-top" role="main" id="main">
-  {% if page.video_src %}
-    {% pattern banners/video-banner data=page %}
-  {% else %}
-    {% pattern banners/project-banner data=page %}
-  {% endif %}
-  {% pattern banners/project-cat data=page %}
-  {% pattern sections/breakdown-section data=page %}
-  {% if page.gallery %}
-    {% pattern sections/image-gallery data=page %}
-  {% endif %}
-</main>
+{% if page.video_src %}
+  {% pattern banners/video-banner data=page %}
+{% else %}
+  {% pattern banners/project-banner data=page %}
+{% endif %}
+{% pattern banners/project-cat data=page %}
+{% pattern sections/breakdown-section data=page %}
+{% if page.gallery %}
+  {% pattern sections/image-gallery data=page %}
+{% endif %}
 
 {{content}}
