@@ -1,5 +1,5 @@
 .img-item > div {
-  max-height: 12em;
+  max-height: 10em;
   overflow: hidden;
 }
 
@@ -108,6 +108,14 @@
   outline-color: #fff;
   opacity: 1;
   outline-offset: 6px;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .caption > div:nth-child(1) {
+    text-align: right;
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
