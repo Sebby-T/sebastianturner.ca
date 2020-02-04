@@ -124,21 +124,23 @@
                     {% endfor %}
                   </ul>
                 </div>
-                <div class="unit xs-1">
-                  <p class="milli push-0 gutter-1-4">Accents</p>
-                  <ul class="grid grid-middle list-group-inline">
-                    {% for accent_colors in include.data.accent_colors %}
-                    <li class="colour-box unit xs-1-2 s-1-3 m-1-3 relative island-1-4">
-                      <div>
-                        <svg class="img-flex" width="256" height="256" viewBox="0 0 256 256"><rect fill="{{accent_colors}}" x="0" y="0" width="256" height="256" /></svg>
-                      </div>
-                      <div class="colour-text pin-c">
-                        <p class="bold text-upper push-0 milli">{{accent_colors}}</p>
-                      </div>
-                    </li>
-                    {% endfor %}
-                  </ul>
-                </div>
+                {% if page.accent_colors %}
+                  <div class="unit xs-1">
+                    <p class="milli push-0 gutter-1-4">Accents</p>
+                    <ul class="grid grid-middle list-group-inline">
+                      {% for accent_colors in include.data.accent_colors %}
+                      <li class="colour-box unit xs-1-2 s-1-3 m-1-3 relative island-1-4">
+                        <div>
+                          <svg class="img-flex" width="256" height="256" viewBox="0 0 256 256"><rect fill="{{accent_colors}}" x="0" y="0" width="256" height="256" /></svg>
+                        </div>
+                        <div class="colour-text pin-c">
+                          <p class="bold text-upper push-0 milli">{{accent_colors}}</p>
+                        </div>
+                      </li>
+                      {% endfor %}
+                    </ul>
+                  </div>
+                {% endif %}
               </div>
             </div>
             <div class="unit xs-1 s-1 unit-pull-m-1-2 m-1-2 l-1-2 xl-1-2 gutter-1-2" id="colour-info">
