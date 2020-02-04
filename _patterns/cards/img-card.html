@@ -1,7 +1,7 @@
 <div class="img-card">
   <a class="img-item img-btn no-focus" href="#img-id-{{include.number}}" aria-label="{{gal.info}}">
-    <div class="embed embed-1by1 transition">
-      <div class="embed-item transition">
+    <div class="transition">
+      <div class="transition">
         <img class="img-flex" src="{{gal.file}}" alt="{{gal.caption}}" role="decoration">
       </div>
     </div>
@@ -31,8 +31,9 @@
       </div>
     </menu>
     <div class="img-expand pin-c relative">
-      <div class="caption pad-t-1-2 pad-b-1-2 text-left" aria-details="#img-caption" tabindex="2">
-        <span class="milli max-length-no-center" id="img-caption">{{gal.caption}}</span>
+      <div class="caption pad-t-1-2 pad-b-1-2 text-left grid grid-middle" aria-details="#img-caption" tabindex="2">
+        <span class="milli max-length-no-center unit xs-2-3" id="img-caption">{{gal.caption}}</span>
+        <span class="milli max-length-no-center text-right unit xs-1-3">{{gal.num}} of {{gal.total}}</span>
       </div>
       <img class="img-flex" src="{{gal.file}}" alt="{{gal.caption}}" role="decoration">
     </div>
