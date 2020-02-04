@@ -1,166 +1,195 @@
 <section class="carousel">
-
-  <input tabindex="0" class="carousel-input no-focus" type="radio" name="breakdown" id="colours-control" checked>
-  <input tabindex="0" class="carousel-input no-focus" type="radio" name="breakdown" id="typeface-control">
-  <input tabindex="0" class="carousel-input no-focus" type="radio" name="breakdown" id="audience-control">
+  {% if page.color_info %}
+    <input tabindex="0" class="carousel-input no-focus" type="radio" name="breakdown" id="colours-control" checked>
+  {% endif %}
+  {% if page.type_info %}
+    <input tabindex="0" class="carousel-input no-focus" type="radio" name="breakdown" id="typeface-control">
+  {% endif %}
+  {% if page.target_info %}
+    <input tabindex="0" class="carousel-input no-focus" type="radio" name="breakdown" id="audience-control">
+  {% endif %}
   <input tabindex="0" class="carousel-input no-focus" type="radio" name="breakdown" id="design-control">
   <div class="carousel-inner">
     <div class="carousel-controls text-center">
       <ul class="list-group relative">
-        <li class="col-btn gutter-1-4">
-          <label class="carousel-btn pad-t-1-4 pad-b-1-4" for="colours-control">
-            <i class="icon i-2">
-              <svg><use xlink:href="/images/icons.svg#colour"></use></svg>
-            </i>
-            <span class="block micro text-center text-upper">Colour</span>
-          </label>
-        </li>
-        <li class="typ-btn gutter-1-4">
-          <label class="carousel-btn pad-t-1-4 pad-b-1-4" for="typeface-control">
-            <i class="icon i-2">
-              <svg><use xlink:href="/images/icons.svg#typeface"></use></svg>
-            </i>
-            <span class="block micro text-center text-upper">Type</span>
-          </label>
-        </li>
-        <li class="aud-btn gutter-1-4">
-          <label class="carousel-btn pad-t-1-4 pad-b-1-4" for="audience-control">
-            <i class="icon i-2">
-              <svg><use xlink:href="/images/icons.svg#tg-aud"></use></svg>
-            </i>
-            <span class="block micro text-center text-upper">Target</span>
-          </label>
-        </li>
-        <li class="des-btn gutter-1-4">
-          <label class="carousel-btn pad-t-1-4 pad-b-1-4" for="design-control">
-            <i class="icon i-2">
-              <svg><use xlink:href="/images/icons.svg#vd"></use></svg>
-            </i>
-            <span class="block micro text-center text-upper">Design</span>
-          </label>
-        </li>
+        {% if page.color_info %}
+          <li class="col-btn gutter-1-4">
+            <label class="carousel-btn pad-t-1-4 pad-b-1-4" for="colours-control">
+              <i class="icon i-2">
+                <svg><use xlink:href="/images/icons.svg#colour"></use></svg>
+              </i>
+              <span class="block micro text-center text-upper">Colour</span>
+            </label>
+          </li>
+        {% endif %}
+        {% if page.type_info %}
+          <li class="typ-btn gutter-1-4">
+            <label class="carousel-btn pad-t-1-4 pad-b-1-4" for="typeface-control">
+              <i class="icon i-2">
+                <svg><use xlink:href="/images/icons.svg#typeface"></use></svg>
+              </i>
+              <span class="block micro text-center text-upper">Type</span>
+            </label>
+          </li>
+        {% endif %}
+        {% if page.target_info %}
+          <li class="aud-btn gutter-1-4">
+            <label class="carousel-btn pad-t-1-4 pad-b-1-4" for="audience-control">
+              <i class="icon i-2">
+                <svg><use xlink:href="/images/icons.svg#tg-aud"></use></svg>
+              </i>
+              <span class="block micro text-center text-upper">Target</span>
+            </label>
+          </li>
+        {% endif %}
+        {% if page.visual_info %}
+          <li class="des-btn gutter-1-4">
+            <label class="carousel-btn pad-t-1-4 pad-b-1-4" for="design-control">
+              <i class="icon i-2">
+                <svg><use xlink:href="/images/icons.svg#vd"></use></svg>
+              </i>
+              <span class="block micro text-center text-upper">Design</span>
+            </label>
+          </li>
+        {% endif %}
       </ul>
     </div>
 
     <div class="arrow-cont text-center">
       <ul class="arrow-list list-group">
-        <li>
-          <div id="arrow-col">
-            <svg class="img-flex" id="arrow" width="256" height="128" viewBox="0 0 256 128">
-              <path id="Path_11" fill="#29272b" d="M0 0l128 128L256 0z"/>
-            </svg>
-          </div>
-        </li>
-        <li>
-          <div id="arrow-typ">
-            <svg class="img-flex" id="arrow" width="256" height="128" viewBox="0 0 256 128">
-              <path id="Path_11" fill="#29272b" d="M0 0l128 128L256 0z"/>
-            </svg>
-          </div>
-        </li>
-        <li>
-          <div id="arrow-aud">
-            <svg class="img-flex" id="arrow" width="256" height="128" viewBox="0 0 256 128">
-              <path id="Path_11" fill="#29272b" d="M0 0l128 128L256 0z"/>
-            </svg>
-          </div>
-        </li>
-        <li>
-          <div id="arrow-des">
-            <svg class="img-flex" id="arrow" width="256" height="128" viewBox="0 0 256 128">
-              <path id="Path_11" fill="#29272b" d="M0 0l128 128L256 0z"/>
-            </svg>
-          </div>
-        </li>
+        {% if page.color_info %}
+          <li>
+            <div id="arrow-col">
+              <svg class="img-flex" id="arrow" width="256" height="128" viewBox="0 0 256 128">
+                <path id="Path_11" fill="#29272b" d="M0 0l128 128L256 0z"/>
+              </svg>
+            </div>
+          </li>
+        {% endif %}
+        {% if page.type_info %}
+          <li>
+            <div id="arrow-typ">
+              <svg class="img-flex" id="arrow" width="256" height="128" viewBox="0 0 256 128">
+                <path id="Path_11" fill="#29272b" d="M0 0l128 128L256 0z"/>
+              </svg>
+            </div>
+          </li>
+        {% endif %}
+        {% if page.target_info %}
+          <li>
+            <div id="arrow-aud">
+              <svg class="img-flex" id="arrow" width="256" height="128" viewBox="0 0 256 128">
+                <path id="Path_11" fill="#29272b" d="M0 0l128 128L256 0z"/>
+              </svg>
+            </div>
+          </li>
+        {% endif %}
+        {% if page.visual_info %}
+          <li>
+            <div id="arrow-des">
+              <svg class="img-flex" id="arrow" width="256" height="128" viewBox="0 0 256 128">
+                <path id="Path_11" fill="#29272b" d="M0 0l128 128L256 0z"/>
+              </svg>
+            </div>
+          </li>
+        {% endif %}
       </ul>
     </div>
 
     <div class="carousel-items wrapper pad-t pad-b">
-      <div class="carousel-item no-focus" id="colours" aria-details="#colour-info" tabindex="0">
-        <div class="grid grid-middle gutter-1-2">
-          <div class="unit xs-1 s-1 unit-push-m-1-2 m-1-2 l-1-2 xl-1-2 gutter-1-2 push">
-            <div class="colour-box grid">
-              <div class="unit xs-1 push-1-2">
-                <div class="grid grid-middle">
-                  <div class="unit xs-1-2 s-1-3">
-                    <p class="milli push-0 gutter-1-4">Primary</p>
+      {% if page.color_info %}
+        <div class="carousel-item no-focus" id="colours" aria-details="#colour-info" tabindex="0">
+          <div class="grid grid-middle gutter-1-2">
+            <div class="unit xs-1 s-1 unit-push-m-1-2 m-1-2 l-1-2 xl-1-2 gutter-1-2 push">
+              <div class="colour-box grid">
+                <div class="unit xs-1 push-1-2">
+                  <div class="grid grid-middle">
+                    <div class="unit xs-1-2 s-1-3">
+                      <p class="milli push-0 gutter-1-4">Primary</p>
+                    </div>
+                    <div class="unit xs-1-3">
+                      <p class="milli push-0 gutter-1-4">Secondary</p>
+                    </div>
                   </div>
-                  <div class="unit xs-1-3">
-                    <p class="milli push-0 gutter-1-4">Secondary</p>
-                  </div>
+                  <ul class="grid grid-middle list-group-inline">
+                    {% for main_colors in include.data.main_colors %}
+                    <li class="colour-box unit xs-1-2 s-1-3 relative island-1-4">
+                      <div>
+                        <svg class="img-flex" width="256" height="256" viewBox="0 0 256 256"><rect fill="{{main_colors}}" x="0" y="0" width="256" height="256" /></svg>
+                      </div>
+                      <div class="colour-text pin-c">
+                        <p class="bold text-upper push-0 milli">{{main_colors}}</p>
+                      </div>
+                    </li>
+                    {% endfor %}
+                  </ul>
                 </div>
-                <ul class="grid grid-middle list-group-inline">
-                  {% for main_colors in include.data.main_colors %}
-                  <li class="colour-box unit xs-1-2 s-1-3 relative island-1-4">
-                    <div>
-                      <svg class="img-flex" width="256" height="256" viewBox="0 0 256 256"><rect fill="{{main_colors}}" x="0" y="0" width="256" height="256" /></svg>
-                    </div>
-                    <div class="colour-text pin-c">
-                      <p class="bold text-upper push-0 milli">{{main_colors}}</p>
-                    </div>
-                  </li>
-                  {% endfor %}
-                </ul>
-              </div>
-              <div class="unit xs-1">
-                <p class="milli push-0 gutter-1-4">Accents</p>
-                <ul class="grid grid-middle list-group-inline">
-                  {% for accent_colors in include.data.accent_colors %}
-                  <li class="colour-box unit xs-1-2 s-1-3 m-1-3 relative island-1-4">
-                    <div>
-                      <svg class="img-flex" width="256" height="256" viewBox="0 0 256 256"><rect fill="{{accent_colors}}" x="0" y="0" width="256" height="256" /></svg>
-                    </div>
-                    <div class="colour-text pin-c">
-                      <p class="bold text-upper push-0 milli">{{accent_colors}}</p>
-                    </div>
-                  </li>
-                  {% endfor %}
-                </ul>
+                <div class="unit xs-1">
+                  <p class="milli push-0 gutter-1-4">Accents</p>
+                  <ul class="grid grid-middle list-group-inline">
+                    {% for accent_colors in include.data.accent_colors %}
+                    <li class="colour-box unit xs-1-2 s-1-3 m-1-3 relative island-1-4">
+                      <div>
+                        <svg class="img-flex" width="256" height="256" viewBox="0 0 256 256"><rect fill="{{accent_colors}}" x="0" y="0" width="256" height="256" /></svg>
+                      </div>
+                      <div class="colour-text pin-c">
+                        <p class="bold text-upper push-0 milli">{{accent_colors}}</p>
+                      </div>
+                    </li>
+                    {% endfor %}
+                  </ul>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="unit xs-1 s-1 unit-pull-m-1-2 m-1-2 l-1-2 xl-1-2 gutter-1-2" id="colour-info">
-            <h3 class="bd-h3 push-1-4">Colours</h3>
-            <p class="max-length-no-center push-0">{{include.data.color_info}}</p>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item no-focus" id="typeface" aria-details="#type-info" tabindex="0">
-        <div class="grid grid-middle gutter-1-2">
-          <div class="unit xs-1 s-1 unit-push-m-1-2 m-1-2 l-1-2 xl-1-2 gutter-1-2 push-1-2">
-            <div class="push">
-              <h4 class="tera font-h4 bold push-1-4">{{include.data.type_prime}}</h4>
-              <div class="font-img font-prime">
-                <img class="img-flex" src="{{include.data.type_img_prime}}" alt="">
-              </div>
+            <div class="unit xs-1 s-1 unit-pull-m-1-2 m-1-2 l-1-2 xl-1-2 gutter-1-2" id="colour-info">
+              <h3 class="bd-h3 push-1-4">Colours</h3>
+              <p class="max-length-no-center push-0">{{include.data.color_info}}</p>
             </div>
-            {% if page.type_secondary %}
-            <div class="push">
-              <h4 class="tera font-h4 bold push-1-4">{{include.data.type_secondary}}</h4>
-              <div class="font-img font-second">
-                <img class="img-flex" src="{{include.data.type_img_secondary}}" alt="">
+          </div>
+        </div>
+      {% endif %}
+      {% if page.type_info %}
+        <div class="carousel-item no-focus" id="typeface" aria-details="#type-info" tabindex="0">
+          <div class="grid grid-middle gutter-1-2">
+            <div class="unit xs-1 s-1 unit-push-m-1-2 m-1-2 l-1-2 xl-1-2 gutter-1-2 push-1-2">
+              <div class="push">
+                <h4 class="tera font-h4 bold push-1-4">{{include.data.type_prime}}</h4>
+                <div class="font-img font-prime">
+                  <img class="img-flex" src="{{include.data.type_img_prime}}" alt="">
+                </div>
               </div>
+              {% if page.type_secondary %}
+              <div class="push">
+                <h4 class="tera font-h4 bold push-1-4">{{include.data.type_secondary}}</h4>
+                <div class="font-img font-second">
+                  <img class="img-flex" src="{{include.data.type_img_secondary}}" alt="">
+                </div>
+              </div>
+              {% endif %}
             </div>
-            {% endif %}
+            <div class="unit xs-1 s-1 unit-pull-m-1-2 m-1-2 l-1-2 xl-1-2 gutter-1-2" id="type-info">
+              <h3 class="bd-h3 push-1-4">Typeface</h3>
+              <p class="push-0">{{include.data.type_info}}</p>
+            </div>
           </div>
-          <div class="unit xs-1 s-1 unit-pull-m-1-2 m-1-2 l-1-2 xl-1-2 gutter-1-2" id="type-info">
-            <h3 class="bd-h3 push-1-4">Typeface</h3>
-            <p class="push-0">{{include.data.type_info}}</p>
+        </div>
+      {% endif %}
+      {% if page.target_info %}
+        <div class="carousel-item no-focus" id="audience" aria-details="#target-info" tabindex="0">
+          <div class="max-length gutter" aria-details="target-info">
+            <h3 class="bd-h3 push-1-4">Target Audience</h3>
+            <p>{{include.data.target_info}}</p>
           </div>
         </div>
-      </div>
-      <div class="carousel-item no-focus" id="audience" aria-details="#target-info" tabindex="0">
-        <div class="max-length gutter" aria-details="target-info">
-          <h3 class="bd-h3 push-1-4">Target Audience</h3>
-          <p>{{include.data.target_info}}</p>
+      {% endif %}
+      {% if page.visual_info %}
+        <div class="carousel-item no-focus" id="design" aria-details="#visual-info" tabindex="0">
+          <div class="max-length gutter" aria-details="visual-info">
+            <h3 class="bd-h3 push-1-4">Visual Design</h3>
+            <p>{{include.data.visual_info}}</p>
+          </div>
         </div>
-      </div>
-      <div class="carousel-item no-focus" id="design" aria-details="#visual-info" tabindex="0">
-        <div class="max-length gutter" aria-details="visual-info">
-          <h3 class="bd-h3 push-1-4">Visual Design</h3>
-          <p>{{include.data.visual_info}}</p>
-        </div>
-      </div>
+      {% endif %}
     </div>
 
   </div>
