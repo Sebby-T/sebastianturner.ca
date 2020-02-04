@@ -6,6 +6,7 @@ vendor
 # Jekyll
 _site
 .jekyll-metadata
+.jekyll-cache
 
 # Temporary files
 tmp
