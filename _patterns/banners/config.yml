@@ -11,11 +11,26 @@ patterns:
     title: "Project Banner"
     description: |
       The project banner displays a the top of every portfolio piece page that involves static content. It contains a title, description, links and a display image of the project.
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.projects[0]"
   video-banner:
     title: "Video Project Banner"
     description: |
       The video project banenr appears on the top of every portfolio piece page that involves video content. It contains a title, description and an embeded Youtube video source.
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.projects[1]"
   project-cat:
     title: "Projects Categories"
     description: |
       This project catergories contains
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.projects[0]"

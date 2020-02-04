@@ -8,6 +8,10 @@ patterns:
     description: |
       The project section is only used on the main page to display my most highlighted portfolio pieces. When the pattern is used in succession it must alternate using field the "section_norm=true".
     fields:
+      - name: data
+        type: object
+        data:
+          source: "site.projects[0]"
       - name: section_norm
         type: string
         example: "true"
@@ -16,3 +20,17 @@ patterns:
     title: "Breakdown Section"
     description: |
       The breakdown section is used on the project pages after the project banner. It is used to display the main content of the project.
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.projects[0]"
+  image-gallery:
+    title: "Image Gallery"
+    description: |
+      The image gallery section is used on project pages to display any relevant imagery that is associated with the project. Each image should have a caption.
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.projects[0]"

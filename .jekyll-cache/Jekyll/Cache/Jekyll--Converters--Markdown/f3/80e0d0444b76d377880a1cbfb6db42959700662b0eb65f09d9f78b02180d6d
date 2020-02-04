@@ -1,0 +1,6 @@
+I"Ü<p>A series of classes for moving a position: absolute element to different common locations.</p>
+
+<p>The <code class="highlighter-rouge">.pin-*</code> classes will automatically add position: absolute so adding the class .absolute also isnâ€™t necessary.</p>
+
+<p>Simplified versions are available: <code class="highlighter-rouge">.pin-lt</code>, <code class="highlighter-rouge">.pin-rt</code>, <code class="highlighter-rouge">pin-lb</code>, <code class="highlighter-rouge">.pin-rb</code>, <code class="highlighter-rouge">.pin-ct</code>, <code class="highlighter-rouge">.pin-cb</code>, <code class="highlighter-rouge">.pin-lc</code>, <code class="highlighter-rouge">.pin-rc</code>, <code class="highlighter-rouge">.pin-c</code></p>
+:ET
