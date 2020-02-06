@@ -6,7 +6,7 @@ metaDescription: "A case study on the Geometric Animation."
 meta_keywords: "Motion, Design, Graphics, Storyboards, Style Frames, After Effects, Animatic"
 project_label: "This link will bring you to the Geometric Animation case study page."
 project_desc: |
-  By timing and easing geometric elements with a catchy soundtrack I showcase my ability to follow animation principles. From storyboard roughs to the final piece, this case study will show you my thoughts a process from start to finish.
+  By timing and easing geometric elements with a catchy soundtrack I showcase my ability to follow animation principles. From storyboard roughs to the final piece, this case study will show you my thoughts and process from start to finish.
 categories:
   - "Motion"
   - "Storyboarding"

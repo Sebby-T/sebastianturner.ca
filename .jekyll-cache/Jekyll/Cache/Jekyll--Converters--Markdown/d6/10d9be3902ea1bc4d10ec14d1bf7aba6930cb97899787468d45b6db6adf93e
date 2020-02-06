@@ -1,7 +1,0 @@
-I"<p>The video project banenr appears on the top of every portfolio piece page that involves video content. It contains a title, description and an embeded Youtube video source.
-    fields:
-      - name: data
-        type: object
-        data:
-          source: “site.projects[1]”</p>
-:ET
