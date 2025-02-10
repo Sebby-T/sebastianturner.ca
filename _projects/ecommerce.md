@@ -7,10 +7,10 @@ project_label: "This link will bring you to the Catonaut ecommerce case study pa
 project_desc: |
   Catonaut is an ecommerce website that was built using a pattern library. It's based on creating all possible components the website could use to build itself.
 btn_text: "Visit the Catonaut website"
-web_url: "https://epic-khorana-dd08aa.netlify.com/"
+web_url: "https://epic-khorana-dd08aa.netlify.app/"
 ariaLink_label: "This link will lead you to the finished Catonaut website"
 btn2_text: "Visit the pattern library"
-web2_url: "https://epic-khorana-dd08aa.netlify.com/pattern-library/#brand"
+web2_url: "https://epic-khorana-dd08aa.netlify.app/pattern-library/#brand"
 ariaLink2_label: "This link will lead you to the Catonaut pattern library."
 categories:
   - "Web Development"
