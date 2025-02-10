@@ -10,6 +10,8 @@ gem "base64"
 
 gem "bigdecimal"
 
+gem "re"
+
 group :jekyll_plugins do
   gem "jekyll_patternbot"
 end

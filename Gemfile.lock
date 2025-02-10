@@ -4,6 +4,8 @@ GEM
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
     babosa (1.0.3)
+    base64 (0.2.0)
+    bigdecimal (3.1.9)
     color_contrast_calc (0.7.0)
     colorator (1.1.0)
     concurrent-ruby (1.1.5)
@@ -61,6 +63,7 @@ GEM
     rb-fsevent (0.10.3)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
+    re (0.0.6)
     rouge (3.15.0)
     safe_yaml (1.0.5)
     sass (3.7.4)
@@ -78,8 +81,11 @@ PLATFORMS
   x64-mingw-ucrt
 
 DEPENDENCIES
+  base64
+  bigdecimal
   jekyll
   jekyll_patternbot
+  re
 
 BUNDLED WITH
    2.6.3
