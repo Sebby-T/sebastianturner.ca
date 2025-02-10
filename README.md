@@ -11,6 +11,8 @@ Now I want to share that creative and inspiring feeling with whomever will liste
 - **[sebastianturner@fastmail.com](mailto:sebastianturner@fastmail.com)**
 - [GitHub](https://github.com/Sebby-T)
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/86c29cb6-3e63-44a3-8946-8a394c2cc619/deploy-status)](https://app.netlify.com/sites/sharp-jackson-f92084/deploys)
+
 ---
 
 © Sebastian Turner
