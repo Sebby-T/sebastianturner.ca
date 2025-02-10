@@ -15,3 +15,5 @@ gem "re"
 group :jekyll_plugins do
   gem "jekyll_patternbot"
 end
+
+gem "matrix", "~> 0.4.2"
